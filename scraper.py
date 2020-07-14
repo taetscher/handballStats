@@ -15,10 +15,11 @@ driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfP
 time.sleep(5)
 
 results = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[2]/table')
-data = results.text.replace('\n',';').replace(' ',',')
+data = results.text
+encoded = data.encode('utf-8')
 
-with open('scraped_data.csv', 'w') as outfile:
-    outfile.write(data)
+with open('scraped_data.csv', 'wb') as outfile:
+    outfile.write(encoded)
     outfile.close()
 
 print(data)
