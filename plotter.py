@@ -16,7 +16,6 @@ print(suspensions.head(20))
 print(yellows.head(20))
 print(reds.head(20))
 
-#TODO: avoid overlap of all these plots
 goalsPerGame.plot(x='teams',y='goalsPerGame',kind='bar')
 plt.title('Mean amount of Goals per Player per Team per Game')
 plt.tight_layout()
