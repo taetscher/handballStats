@@ -12,16 +12,18 @@ def scrape():
     driver.get(urlpage)
     driver.execute_script(
         "window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
-    # time.sleep(5)
+    time.sleep(5)
 
     results = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[2]/table')
-    players = []
+    group =  driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/p').text
+    season = driver.find_element_by_xpath('//*[@id="menu-breadcrumb-season-trigger"]/span').text.replace('/','')
+
+
     teams = []
-    gpg = []
 
     data = results.text.replace('\n', '\n').replace(' ',',')
 
-    with open('scraped_data.csv', 'w') as outfile:
+    with open('{}_{}.csv'.format(group,season), 'w') as outfile:
         outfile.write('playerName,team,games,goalsPerGame,yellowCards,2mins,redCards\n')
         outfile.close()
 
@@ -36,7 +38,7 @@ def scrape():
 
             teams.append(player_team.text)
 
-            with open('scraped_data.csv', 'ab') as outfile:
+            with open('{}_{}.csv'.format(group,season), 'ab') as outfile:
 
                 outfile.write(player_name.text.encode('utf-8'))
                 outfile.write(str.encode(',', 'utf-8'))
