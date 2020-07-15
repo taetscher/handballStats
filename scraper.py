@@ -3,7 +3,7 @@ import time
 
 def scrape():
     # specify url
-    urlpage = 'https://www.handball.ch/de/matchcenter/gruppen/12137#/stats'
+    urlpage = 'https://www.handball.ch/de/matchcenter/gruppen/12135#/stats'
     print('scraping... ', urlpage)
 
     # run firefox webdriver from executable path of your choice
@@ -15,7 +15,7 @@ def scrape():
     time.sleep(5)
 
     results = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[2]/table')
-    group =  driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/p').text
+    group =  driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/p').text.replace(' ','_')
     season = driver.find_element_by_xpath('//*[@id="menu-breadcrumb-season-trigger"]/span').text.replace('/','')
 
 
@@ -23,7 +23,7 @@ def scrape():
 
     data = results.text.replace('\n', '\n').replace(' ',',')
 
-    with open('{}_{}.csv'.format(group,season), 'w') as outfile:
+    with open('scraped_data/{}_{}.csv'.format(group,season), 'w') as outfile:
         outfile.write('playerName,team,games,goalsPerGame,yellowCards,2mins,redCards\n')
         outfile.close()
 
@@ -38,7 +38,7 @@ def scrape():
 
             teams.append(player_team.text)
 
-            with open('{}_{}.csv'.format(group,season), 'ab') as outfile:
+            with open('scraped_data/{}_{}.csv'.format(group,season), 'ab') as outfile:
 
                 outfile.write(player_name.text.encode('utf-8'))
                 outfile.write(str.encode(',', 'utf-8'))
