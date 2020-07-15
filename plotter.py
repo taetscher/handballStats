@@ -2,9 +2,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('scraped_data.csv')
-#df = df.drop(['yellowCards','redCards'], axis=1 )
+############## SET INFILE VARIABLE TO GROUP ###############
 
+infile = 'Junioren U15 Elite_201920'
+
+############## SET INFILE VARIABLE TO GROUP ###############
+
+df = pd.read_csv(infile)
+df = df.drop(['yellowCards','2mins','redCards'], axis=1 )
 
 goalsPerGame = df.groupby(['team'])['goalsPerGame'].aggregate(np.mean).sort_values(ascending=False)
 suspensions = df.groupby(['team'])['2mins'].mean().sort_values(ascending=False)
