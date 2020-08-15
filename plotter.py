@@ -2,6 +2,15 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.core.groupby.groupby import DataError
 import os
+import numpy as np
+
+def find_min(inframe):
+    minimum = inframe.min()
+    return minimum
+
+def find_max(inframe):
+    maximum = inframe.max()
+    return maximum
 
 def plot():
     indir = os.listdir('scraped_data')
@@ -12,8 +21,7 @@ def plot():
         s = '_'
         group = s.join(group)
         print('\n\n\n')
-        print('reading in... ' + infile
-              )
+        print('reading in... ' + infile)
 
         df = pd.read_csv('scraped_data/' + infile + '.csv')
         # df = df.drop(['yellowCards','2mins','redCards'], axis=1 )
@@ -29,26 +37,38 @@ def plot():
             print(yellows.head(20))
             print(reds.head(20))
 
-            goalsPerGame.plot(x='teams', y='goalsPerGame', kind='bar')
+            goalsPerGame.plot(x='teams', y='goalsPerGame', kind='bar', zorder=100)
             plt.title('Mean amount of Goals per Player per Team per Game\n{}'.format(group))
+            plt.yticks(np.arange(find_max(goalsPerGame),step=0.25))
+            plt.ylim(bottom=find_min(goalsPerGame)-0.25)
+            plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
             plt.savefig('output_png/{}_meanGoalsPerPlayerPerTeamPerGame.png'.format(group))
             plt.close('all')
 
-            suspensions.plot(x='teams', y='2mins', kind='bar')
+            suspensions.plot(x='teams', y='2mins', kind='bar', zorder=100)
             plt.title('Mean amount of Suspensions per Player per Team\n{}'.format(group))
+            plt.yticks(np.arange(find_max(suspensions), step=0.5))
+            plt.ylim(bottom=find_min(suspensions) - 1)
+            plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
             plt.savefig('output_png/{}_meanSuspensionsPerPlayerPerTeam.png'.format(group))
             plt.close('all')
 
-            yellows.plot(x='teams', y='yellowCards', kind='bar')
+            yellows.plot(x='teams', y='yellowCards', kind='bar', zorder=100)
             plt.title('Mean amount of Yellow Cards per Player per Team\n{}'.format(group))
+            plt.yticks(np.arange(find_max(yellows), step=0.5))
+            plt.ylim(bottom=find_min(yellows) - 1)
+            plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
             plt.savefig('output_png/{}_meanYellowCardsPerPlayerPerTeam.png'.format(group))
             plt.close('all')
 
-            reds.plot(x='teams', y='redCards', kind='bar')
+            reds.plot(x='teams', y='redCards', kind='bar', zorder=100)
             plt.title('Sum of Red Cards per Team\n{}'.format(group))
+            plt.yticks(np.arange(find_max(reds), step=0.5))
+            plt.ylim(bottom=find_min(reds))
+            plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
             plt.savefig('output_png/{}_redCardsPerTeam.png'.format(group))
             plt.close('all')
