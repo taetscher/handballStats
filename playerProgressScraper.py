@@ -14,6 +14,7 @@ def main():
     for game in games:
         link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
         game_stats = scrapeGame(link,team_name,driver)
+        #TODO: save date of game as well as number and all the other stuff!
         writer(game_stats,game)
         print(game_stats)
 
