@@ -17,7 +17,7 @@ def scrape():
         print('scraping... ', urlpage)
 
         # run firefox webdriver from executable path of your choice
-        driver = webdriver.Firefox(executable_path='/Users/benischuepbach/Desktop/Coding/sources/geckodriver')
+        driver = webdriver.Firefox(executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
 
         driver.get(urlpage)
         driver.execute_script(
@@ -32,7 +32,7 @@ def scrape():
 
         data = results.text.replace('\n', '\n').replace(' ', ',')
 
-        with open('scraped_data/{}_{}.csv'.format(group, season), 'w') as outfile:
+        with open('playerStats_data/{}_{}.csv'.format(group, season), 'w') as outfile:
             outfile.write('playerName,team,games,goalsPerGame,yellowCards,2mins,redCards\n')
             outfile.close()
 
@@ -54,7 +54,7 @@ def scrape():
 
             teams.append(player_team.text)
 
-            with open('scraped_data/{}_{}.csv'.format(group, season), 'ab') as outfile:
+            with open('playerStats_data/{}_{}.csv'.format(group, season), 'ab') as outfile:
                 outfile.write(player_name.text.encode('utf-8'))
                 outfile.write(str.encode(',', 'utf-8'))
                 outfile.write(player_team.text.encode('utf-8'))

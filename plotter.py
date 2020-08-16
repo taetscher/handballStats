@@ -13,7 +13,7 @@ def find_max(inframe):
     return maximum
 
 def plot():
-    indir = os.listdir('scraped_data')
+    indir = os.listdir('playerStats_data')
 
     for file in indir:
         infile = file[:-4]
@@ -23,7 +23,7 @@ def plot():
         print('\n\n\n')
         print('reading in... ' + infile)
 
-        df = pd.read_csv('scraped_data/' + infile + '.csv')
+        df = pd.read_csv('playerStats_data/' + infile + '.csv')
         # df = df.drop(['yellowCards','2mins','redCards'], axis=1 )
 
         try:
