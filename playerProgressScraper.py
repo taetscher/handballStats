@@ -4,7 +4,8 @@ import time
 import os
 
 #be aware, the team id changes once per season!
-teams = {'U15Elite':['30639'],'U17Elite':['30635'],'U19Elite':['30371']}
+teams_seasons = {'U15Elite':['30639'],'U17Elite':['30635'],'U19Elite':['30371']}
+teams = []
 
 def main():
 
@@ -12,7 +13,8 @@ def main():
     driver = webdriver.Firefox(
         executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
 
-    #TODO: Find some way of being able to assign each output folder(or file) a season tag to generate stats for multiple seasons
+    for value in teams_seasons.values():
+        teams.extend(value)
 
     # check if output directory already exists, create new one if not
     for team in teams:
@@ -28,7 +30,6 @@ def main():
         for game in games:
             link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
             game_stats, date = scrapeGame(link, team_name, driver)
-            # TODO: save date of game as well as number and all the other stuff!
             writer(game_stats, game, date, team)
             print(game_stats)
 
@@ -53,6 +54,7 @@ def findGamesPage(driver,team):
     games_button = driver.find_element_by_xpath('//*[@id="games-tab"]')
     games_button.click()
 
+    time.sleep(0.5)
     first_date = driver.find_element_by_xpath('//*[@id="dateFromGames_1"]')
     first_date.send_keys(Keys.CONTROL + "a")
     first_date.send_keys('01.07.2019')
@@ -113,7 +115,7 @@ def scrapeGame(link,team,driver):
 def writer(game_stats,game,date,team):
     """helper function. writes statistics of input game-id into csv file"""
 
-    with open('playerProgress_data/{}/{}.csv'.format(team,game),'w') as outfile:
+    with open('playerProgress_data/{}/raw_{}.csv'.format(team,game),'w') as outfile:
         #encode/decode to avoid characters being saved wrongly
         outfile.write(date+'\n')
         csv = game_stats.replace(' ', ',').encode().decode('cp1252')
