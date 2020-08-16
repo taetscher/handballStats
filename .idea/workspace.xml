@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938575a6-059f-4d1c-9750-fd936eff0279" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playerProgressScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/playerProgressScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385925.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385929.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385936.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385942.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385947.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385955.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385958.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385968.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385969.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385980.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385982.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385991.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/385995.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386002.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386008.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386013.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386021.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386024.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/playerProgress_data/30639/386034.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playerStatsScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="340">
               <caret line="32" column="65" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="65" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -47,26 +27,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="187">
+              <caret line="14" column="128" selection-start-line="14" selection-start-column="128" selection-end-line="14" selection-end-column="128" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#2035#2934#0" />
-                <element signature="e#2030#2113#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plotter.py">
+        <entry file="file://$PROJECT_DIR$/plotterPlayerStats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1079">
+            <state relative-caret-position="68">
               <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="e#159#201#0" />
                 <element signature="e#230#272#0" />
+                <element signature="e#290#4684#0" />
               </folding>
             </state>
           </provider>
@@ -291,9 +270,28 @@
     <entry file="file://$PROJECT_DIR$/playerStats_data/Junioren_U19_Elite_201920.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/playerProgress_data/30639/385929.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerProgress_data/30639/385925.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotterPlayerStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#159#201#0" />
+            <element signature="e#230#272#0" />
+            <element signature="e#290#4684#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playerStatsScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="340">
           <caret line="32" column="65" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="65" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -301,32 +299,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playerProgress_data/30639/385929.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playerProgress_data/30639/385925.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1079">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#159#201#0" />
-            <element signature="e#230#272#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="187">
+          <caret line="14" column="128" selection-start-line="14" selection-start-column="128" selection-end-line="14" selection-end-column="128" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#2035#2934#0" />
-            <element signature="e#2030#2113#1" />
           </folding>
         </state>
       </provider>

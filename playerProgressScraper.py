@@ -4,9 +4,16 @@ import time
 import os
 
 #be aware, the team id changes once per season!
-teams = ['30639','30635','30371']
+teams = {'U15Elite':['30639'],'U17Elite':['30635'],'U19Elite':['30371']}
 
 def main():
+
+    # run firefox webdriver from executable path of your choice
+    driver = webdriver.Firefox(
+        executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
+
+    #TODO: Find some way of being able to assign each output folder(or file) a season tag to generate stats for multiple seasons
+
     # check if output directory already exists, create new one if not
     for team in teams:
         try:
@@ -14,10 +21,6 @@ def main():
             os.makedirs("playerProgress_data/{}".format(team), exist_ok=False)
         except OSError:
             print('directory for team {} already exists, skipping...'.format(team))
-
-    # run firefox webdriver from executable path of your choice
-    driver = webdriver.Firefox(
-        executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
 
     for team in teams:
         team_name, games = findGamesPage(driver, team)
