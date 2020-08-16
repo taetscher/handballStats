@@ -1,26 +1,38 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+import os
 
-team = '30639'
+#be aware, the team id changes once per season!
+teams = ['30639','30635','30371']
 
 def main():
+    # check if output directory already exists, create new one if not
+    for team in teams:
+        try:
+            print('creating new directory for team {}...'.format(team))
+            os.makedirs("playerProgress_data/{}".format(team), exist_ok=False)
+        except OSError:
+            print('directory for team {} already exists, skipping...'.format(team))
+
     # run firefox webdriver from executable path of your choice
     driver = webdriver.Firefox(
         executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
 
-    team_name, games = findGamesPage(driver)
+    for team in teams:
+        team_name, games = findGamesPage(driver, team)
 
-    for game in games:
-        link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
-        game_stats = scrapeGame(link,team_name,driver)
-        #TODO: save date of game as well as number and all the other stuff!
-        writer(game_stats,game)
-        print(game_stats)
+        for game in games:
+            link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
+            game_stats, date = scrapeGame(link, team_name, driver)
+            # TODO: save date of game as well as number and all the other stuff!
+            writer(game_stats, game, date, team)
+            print(game_stats)
 
+    print('scraping successfully terminated, closing firefox...')
     driver.quit()
 
-def findGamesPage(driver):
+def findGamesPage(driver,team):
     """finds all games played by specified team
 
     returns a list of game ids"""
@@ -70,12 +82,12 @@ def scrapeGame(link,team,driver):
 
     returns only statistics for specified team and input game"""
 
-
     driver.get(link)
     time.sleep(0.5)
     stats_tab = driver.find_element_by_xpath('//*[@id="stats-tab"]')
     stats_tab.click()
     time.sleep(2)
+    date = driver.find_element_by_xpath('/html/body/div[3]/div[1]/div[1]/div/div/div[2]/div[2]/div[3]/span[1]').text
     left_table = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[1]/div/table')
     right_table = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[2]')
 
@@ -88,23 +100,22 @@ def scrapeGame(link,team,driver):
     time.sleep(0.5)
 
     if left_team.upper() == team:
-        return left_content
+        return left_content, date
     elif right_team.upper() == team:
-        return right_content
+        return right_content, date
     else:
         print('\n\nsomething went wrong, shutting down...')
         pass
 
-def writer(game_stats,game):
+def writer(game_stats,game,date,team):
     """helper function. writes statistics of input game-id into csv file"""
 
     with open('playerProgress_data/{}/{}.csv'.format(team,game),'w') as outfile:
         #encode/decode to avoid characters being saved wrongly
-        csv= game_stats.replace(' ', ',').encode().decode('cp1252')
+        outfile.write(date+'\n')
+        csv = game_stats.replace(' ', ',').encode().decode('cp1252')
         outfile.write(csv)
         outfile.close()
-
-
 
 if __name__ == '__main__':
     main()
