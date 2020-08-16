@@ -27,15 +27,19 @@ def plot():
         # df = df.drop(['yellowCards','2mins','redCards'], axis=1 )
 
         try:
+            n = 20
             goalsPerGame = df.groupby(['team'])['goalsPerGame'].mean().sort_values(ascending=False)
             suspensions = df.groupby(['team'])['2mins'].mean().sort_values(ascending=False)
             yellows = df.groupby(['team'])['yellowCards'].mean().sort_values(ascending=False)
             reds = df.groupby(['team'])['redCards'].sum().sort_values(ascending=False)
+            goalGetters = df.sort_values('goalsPerGame', ascending=False)
+            goalGetters = goalGetters.head(n)
+            dangerousAttacks = goalGetters.groupby(['team']).count().sort_values('playerName', ascending=False)
 
             # print(goalsPerGame.head(10))
-            print(suspensions.head(20))
-            print(yellows.head(20))
-            print(reds.head(20))
+            #print(suspensions.head(20))
+            #print(yellows.head(20))
+            #print(reds.head(20))
 
             goalsPerGame.plot(x='teams', y='goalsPerGame', kind='bar', zorder=100)
             plt.title('Mean amount of Goals per Player per Team per Game\n{}'.format(group))
@@ -71,6 +75,24 @@ def plot():
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
             plt.savefig('output_png/{}_redCardsPerTeam.png'.format(group))
+            plt.close('all')
+
+            goalGetters.plot(x='playerName', y='goalsPerGame', kind='bar', zorder=100)
+            plt.title('{} Top Scorers in Group\n{}'.format(n, group))
+            plt.yticks(np.arange(find_max(goalGetters['goalsPerGame']), step=0.5))
+            plt.ylim(bottom=find_min(goalGetters['goalsPerGame']) - 0.5)
+            plt.grid(b=True, zorder=0, linestyle='--')
+            plt.tight_layout()
+            plt.savefig('output_png/{}_{}topGoalgetters.png'.format(group,n))
+            plt.close('all')
+
+            dangerousAttacks.plot(y='goalsPerGame', kind='bar', zorder=100)
+            plt.title('Count of Team in top {} Goal Scorers\n{}'.format(n, group))
+            plt.yticks(np.arange(find_max(dangerousAttacks['playerName']), step=1))
+            plt.ylim(bottom=find_min(dangerousAttacks['playerName']) - 1)
+            plt.grid(b=True, zorder=0, linestyle='--')
+            plt.tight_layout()
+            plt.savefig('output_png/{}_mostDangerousAttacks.png'.format(group))
             plt.close('all')
 
         except DataError as e:
