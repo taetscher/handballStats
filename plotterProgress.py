@@ -33,7 +33,7 @@ def main():
 
         print(outfield)
         #do pandas calculations/joins to be able to have each game as a column, each player as a row
-            #create empty dataframe to which to join all of the information of each file
+        #create empty dataframe to which to join all of the information of each file
         outfield_df = pd.read_csv('{}/{}/{}'.format(data_dir,folder,outfield[0]),engine='python')
         goalies_df = pd.DataFrame()
 
