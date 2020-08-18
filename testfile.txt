@@ -1,0 +1,2 @@
+now finally happy with everything, today we merge!
+...and we also learn about git commit -a -m "your message here"
