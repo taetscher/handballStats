@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938575a6-059f-4d1c-9750-fd936eff0279" name="Default Changelist" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/handballStats.iml" afterPath="$PROJECT_DIR$/.idea/handballStats.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/TF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/V" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/V" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/V" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotterProgress.py" afterPath="$PROJECT_DIR$/plotterProgress.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +46,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="playerStatsScraper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="playerStatsScraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playerStatsScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-137">
               <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playerProgressScraper.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="28" column="87" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="87" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotterProgress.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotterProgress.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="225" column="19" lean-forward="false" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
+              <folding>
+                <element signature="e#2173#5320#0" expanded="false" />
+                <element signature="e#5347#5406#0" expanded="false" />
+                <element signature="e#5440#5509#0" expanded="false" />
+                <element signature="e#5567#6485#0" expanded="false" />
+                <element signature="e#6538#7169#0" expanded="false" />
+                <element signature="e#8289#8369#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/plotter.py" />
         <option value="$PROJECT_DIR$/scraper.py" />
-        <option value="$PROJECT_DIR$/playerStatsScraper.py" />
         <option value="$PROJECT_DIR$/plotterPlayerStats.py" />
         <option value="$PROJECT_DIR$/playerProgressScraper.py" />
+        <option value="$PROJECT_DIR$/playerStatsScraper.py" />
         <option value="$PROJECT_DIR$/plotterProgress.py" />
       </list>
     </option>
@@ -100,6 +160,32 @@
               <item name="output_csv" type="462c0819:PsiDirectoryNode" />
               <item name="progress_data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+              <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+              <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
+              <item name="30639" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+              <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
+              <item name="30639" type="462c0819:PsiDirectoryNode" />
+              <item name="Aebi Fabian Timon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.plotterProgress">
     <configuration name="playerProgressScraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,6 +303,11 @@
       <item index="2" class="java.lang.String" itemvalue="Python.plotterProgress" />
       <item index="3" class="java.lang.String" itemvalue="Python.scraper" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.plotterProgress" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -236,11 +327,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -261,7 +353,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -290,7 +384,7 @@
         <state relative-caret-position="1515">
           <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
             <element signature="e#159#201#0" expanded="false" />
             <element signature="e#230#272#0" expanded="false" />
           </folding>
@@ -301,7 +395,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#2173#5320#0" expanded="false" />
+            <element signature="e#5347#5406#0" expanded="false" />
+            <element signature="e#5440#5509#0" expanded="false" />
+            <element signature="e#5567#6485#0" expanded="false" />
+            <element signature="e#6538#7169#0" expanded="false" />
+            <element signature="e#8289#8369#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -319,18 +420,10 @@
         <state relative-caret-position="1515">
           <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
             <element signature="e#159#201#0" expanded="false" />
             <element signature="e#230#272#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plotterProgress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,16 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30371/%.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -413,10 +496,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playerStatsScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-137">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="28" column="87" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/TF.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/%.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/2'.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/%.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/2'.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotterProgress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="225" column="19" lean-forward="false" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
+          <folding>
+            <element signature="e#2173#5320#0" expanded="false" />
+            <element signature="e#5347#5406#0" expanded="false" />
+            <element signature="e#5440#5509#0" expanded="false" />
+            <element signature="e#5567#6485#0" expanded="false" />
+            <element signature="e#6538#7169#0" expanded="false" />
+            <element signature="e#8289#8369#0" expanded="false" />
           </folding>
         </state>
       </provider>

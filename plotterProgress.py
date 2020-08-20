@@ -54,7 +54,8 @@ def main():
             merged = mergeStats(outfield,outfield_players,stat,folder)
 
             #plot time series data of each player to see his/her progress over time
-            plot(merged,stat,folder)
+            plotOutfield(merged,stat,folder)
+            plotOutfieldIndividuals(outfield_players,merged,stat,folder)
             write(merged,folder,stat)
 
 def csvConverter(infile,folder):
@@ -177,7 +178,7 @@ def mergeStats(games_list,player_list,stat,folder):
 
     return join_df
 
-def plot(input_dataframe,stat,folder):
+def plotOutfield(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
     print(f'plotting stat {stat} for team {folder}')
 
@@ -194,6 +195,35 @@ def plot(input_dataframe,stat,folder):
     plt.tight_layout()
 
     plt.savefig(f'output_png/progress_plots/{folder}/{stat}')
+
+def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
+    """plots individual entries of multivariate time series and saves .pngs of them"""
+
+    for player in player_list:
+        print(f'plotting stat {stat} for player {player}')
+
+        #set up directory for player
+        try:
+            os.makedirs("output_png/progress_plots/{}/{}".format(folder,player), exist_ok=False)
+        except FileExistsError:
+            pass
+
+        #plotting stuff
+        fontP = FontProperties()
+        fontP.set_size('xx-small')
+
+        plt.figure(figsize=(10, 7))
+
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='nipy_spectral', marker='o',
+                                      linestyle='--')
+
+        plt.title(f'{stat} of team {folder}')
+        plt.legend(title='Spieler', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+        plt.xticks(rotation=90)
+        plt.tight_layout()
+
+        plt.savefig(f'output_png/progress_plots/{folder}/{player}/{stat}')
+        plt.close()
 
 def write(input_dataframe,folder,stat):
     input_dataframe.to_csv(f'output_csv/progress_data/{folder}/{stat}', index=False)
