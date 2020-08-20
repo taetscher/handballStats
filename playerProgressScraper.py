@@ -25,10 +25,11 @@ def main():
     # check if output directory already exists, create new one if not
     for team in teams:
         try:
-            print('creating new directory for team {}...'.format(team))
+            print('creating new directories for team {}...'.format(team))
             os.makedirs("playerProgress_data/{}/raw_data".format(team), exist_ok=False)
+            os.makedirs(f'output_png/progress_plots/{team}',exist_ok=False)
         except OSError:
-            print('directory for team {} already exists, skipping...'.format(team))
+            print('directories for team {} already exist, skipping...'.format(team))
 
     for team in teams:
         team_name, games = findGamesPage(driver, team)

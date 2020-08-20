@@ -1,6 +1,9 @@
 import os
 import pandas as pd
+from pandas.plotting import parallel_coordinates
 import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+import itertools
 
 data_dir = 'playerProgress_data'
 
@@ -51,7 +54,8 @@ def main():
             merged = mergeStats(outfield,outfield_players,stat,folder)
 
             #plot time series data of each player to see his/her progress over time
-            plot(merged)
+            plot(merged,stat,folder)
+            write(merged,folder,stat)
 
 def csvConverter(infile,folder):
     """ takes in messy raw data and turns it into readable csv format
@@ -150,6 +154,8 @@ def pdToInt(dframe,inlist):
         pd.eval(dframe[column],parser='python')
 
 def mergeStats(games_list,player_list,stat,folder):
+    """merging stats across the season (stats per game per player)"""
+
     # create a base dataframe of all players
     join_df = pd.DataFrame(player_list, columns=['SPIELER'])
 
@@ -171,9 +177,26 @@ def mergeStats(games_list,player_list,stat,folder):
 
     return join_df
 
-def plot(input_dataframe):
+def plot(input_dataframe,stat,folder):
+    """plots multivariate time series and saves .pngs of them"""
+    print(f'plotting stat {stat} for team {folder}')
 
-    input_dataframe.plot()
+
+    fontP = FontProperties()
+    fontP.set_size('xx-small')
+    marker = itertools.cycle((',', '+', '.', 'o', '*'))
+
+    plt.figure(figsize=(10, 5))
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='nipy_spectral', marker=next(marker), linestyle=':')
+    plt.title(f'{stat} of team {folder}')
+    plt.legend(title='Spieler', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+    plt.xticks(rotation=90)
+    plt.tight_layout()
+
+    plt.savefig(f'output_png/progress_plots/{folder}/{stat}')
+
+def write(input_dataframe,folder,stat):
+    input_dataframe.to_csv(f'output_csv/progress_data/{folder}/{stat}', index=False)
 
 
 
