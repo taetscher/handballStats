@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
 
 data_dir = 'playerProgress_data'
 
@@ -7,14 +8,14 @@ def main():
     folders = os.listdir(data_dir)
 
     for folder in folders:
-        print(folder)
+        print(f'analyzing team number {folder}')
         #get all files in folder
         files = []
         files.extend(os.listdir('{}/{}/raw_data'.format(data_dir, folder)))
 
         #convert csv files to account for player info and goalie info
         for file in files:
-            print('\nconverting file {}...\n'.format(file))
+            print('converting file {}...'.format(file))
             csvConverter(file,folder)
 
         #read in newly generated, split csvs
@@ -30,22 +31,27 @@ def main():
                 outfield.append(file)
             elif str(file).split('_')[-1] == 'goalies.csv':
                 goalies.append(file)
+            else:
+                pass
 
-        print(outfield)
         #do pandas calculations/joins to be able to have each game as a column, each player as a row
         #create empty dataframe to which to join all of the information of each file
-        outfield_df = pd.read_csv('{}/{}/{}'.format(data_dir,folder,outfield[0]),engine='python')
-        goalies_df = pd.DataFrame()
 
-        for file in outfield[1:]:
-            temp_df = pd.read_csv('{}/{}/{}'.format(data_dir,folder,file))
-            print(temp_df)
-            outfield_df.join(temp_df,on='SPIELER')
+        #first, generate a list of all players who have played over the course of the whole season
+        outfield_players = []
+        for file in outfield:
+            temp_df = pd.read_csv('{}/{}/{}'.format(data_dir, folder, file), encoding='utf-8').fillna(0)
+            for player in temp_df['SPIELER']:
+                outfield_players.append(player)
+        outfield_players = set(outfield_players)
 
-        print(outfield_df.head)
+        stats = ['%', 'TF', 'V', "2'", 'D']
 
+        for stat in stats:
+            merged = mergeStats(outfield,outfield_players,stat,folder)
 
-        #plot time series data of each player to see his/her progress over time
+            #plot time series data of each player to see his/her progress over time
+            plot(merged)
 
 def csvConverter(infile,folder):
     """ takes in messy raw data and turns it into readable csv format
@@ -138,6 +144,39 @@ def csvConverter(infile,folder):
 
 def cleanUp(inlist):
     return str(inlist).strip("['").strip("']").replace(',',' ')
+
+def pdToInt(dframe,inlist):
+    for column in inlist:
+        pd.eval(dframe[column],parser='python')
+
+def mergeStats(games_list,player_list,stat,folder):
+    # create a base dataframe of all players
+    join_df = pd.DataFrame(player_list, columns=['SPIELER'])
+
+    header = ['TORE', '7M', '%', 'TF', 'V', "2'", 'D']
+    header.remove(stat)
+
+    # merge stats to the base dataframe using the date as column name
+    for file in games_list:
+        temp_df = pd.read_csv('{}/{}/{}'.format(data_dir, folder, file), encoding='utf-8').fillna(0)
+        merged = pd.merge(join_df, temp_df, left_on='SPIELER', right_on='SPIELER', how='outer')#.fillna(-1)
+        merged = merged.drop(header, axis=1)
+        merged.rename(columns={stat : str(file[:8])}, inplace=True)
+        join_df = merged
+
+    # sort columns: first is SPIELER, then sort according to date
+    join_df = join_df.reindex(sorted(join_df.columns), axis=1)
+    col = join_df.pop("SPIELER")
+    join_df.insert(0, col.name, col)
+
+    return join_df
+
+def plot(input_dataframe):
+
+    input_dataframe.plot()
+
+
+
 
 if __name__ == '__main__':
     main()
