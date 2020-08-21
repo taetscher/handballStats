@@ -146,7 +146,6 @@ def writer(game_stats,game,date,team, league):
             # remove whitespace at beginning of strings
             try:
                 element = element.strip().replace('\t',' ')
-                print(element)
             except:
                 pass
 

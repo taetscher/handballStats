@@ -1,1 +1,1 @@
-teams_seasons = {'U15Elite':[30639],'U17Elite':[30635],'U19Elite':[30371],'NLA':[30644],'NLB':[31092]}
+teams_seasons = {'U15Elite':[30639],'U17Elite':[30635],'U19Elite':[30371],'NLA':[30644],'NLB':[31092], '1.Liga':[30370]}
