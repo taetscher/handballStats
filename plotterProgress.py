@@ -51,12 +51,39 @@ def main():
         stats = ['%', 'TF', 'V', "2'", 'D']
 
         for stat in stats:
-            merged = mergeStats(outfield,outfield_players,stat,folder)
+            merged_outfield = mergeStatsOutfield(outfield,outfield_players,stat,folder)
 
-            #plot time series data of each player to see his/her progress over time
-            plotOutfield(merged,stat,folder)
-            plotOutfieldIndividuals(outfield_players,merged,stat,folder)
-            write(merged,folder,stat)
+            #plot time series data of each outfield player to see his/her progress over time
+            plotOutfield(merged_outfield,stat,folder)
+            plotOutfieldIndividuals(outfield_players,merged_outfield,stat,folder)
+            write(merged_outfield,folder,stat)
+
+        # second, generate a list of all goalies who have played over the course of the whole season
+        goalie_players = []
+        for file in goalies:
+            temp_df = pd.read_csv('{}/{}/{}'.format(data_dir, folder, file), encoding='utf-8').fillna(0)
+            for player in temp_df['TORHÜTER']:
+                goalie_players.append(player)
+        goalie_players = set(goalie_players)
+
+        stats = ['P/W','7M','%']
+
+        for stat in stats:
+            merged_goalies = mergeStatsGoalie(goalies, goalie_players, stat, folder)
+
+            # plot time series data of each goalie to see his/her progress over time
+            try:
+                try:
+                    plotGoalie(merged_goalies, stat, folder)
+                    plotGoalieIndividuals(goalie_players, merged_goalies, stat, folder)
+                except TypeError:
+                    print('TypeError')
+                    pass
+            except ValueError:
+                print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
+                      'but then the information would get lost because it would be identical to %-stat')
+
+            write(merged_goalies, folder, str(stat).replace('/','-')+'_goalie')
 
     print('\n\nplotting complete')
 
@@ -156,7 +183,7 @@ def pdToInt(dframe,inlist):
     for column in inlist:
         pd.eval(dframe[column],parser='python')
 
-def mergeStats(games_list,player_list,stat,folder):
+def mergeStatsOutfield(games_list,player_list,stat,folder):
     """merging stats across the season (stats per game per player)"""
 
     # create a base dataframe of all players
@@ -180,6 +207,30 @@ def mergeStats(games_list,player_list,stat,folder):
 
     return join_df
 
+def mergeStatsGoalie(games_list,player_list,stat,folder):
+    """merging stats across the season (stats per game per player)"""
+
+    # create a base dataframe of all players
+    join_df = pd.DataFrame(player_list, columns=['TORHÜTER'])
+
+    header = ['P/W','7M','%']
+    header.remove(stat)
+
+    # merge stats to the base dataframe using the date as column name
+    for file in games_list:
+        temp_df = pd.read_csv('{}/{}/{}'.format(data_dir, folder, file), encoding='utf-8').fillna(0)
+        merged = pd.merge(join_df, temp_df, left_on='TORHÜTER', right_on='TORHÜTER', how='outer')#.fillna(-1)
+        merged = merged.drop(header, axis=1)
+        merged.rename(columns={stat : str(file[:8])}, inplace=True)
+        join_df = merged
+
+    # sort columns: first is SPIELER, then sort according to date
+    join_df = join_df.reindex(sorted(join_df.columns), axis=1)
+    col = join_df.pop("TORHÜTER")
+    join_df.insert(0, col.name, col)
+
+    return join_df
+
 def plotOutfield(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
     print(f'plotting stat {stat} for team {folder}')
@@ -187,12 +238,11 @@ def plotOutfield(input_dataframe,stat,folder):
 
     fontP = FontProperties()
     fontP.set_size('xx-small')
-    marker = itertools.cycle((',', '+', '.', 'o', '*'))
 
     plt.figure(figsize=(10, 5))
-    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='nipy_spectral', marker=next(marker), linestyle=':')
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='nipy_spectral', marker='o', linestyle=':')
     plt.title(f'{stat} of team {folder}')
-    plt.legend(title='Spieler', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+    plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
 
@@ -221,11 +271,59 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
                                       linestyle='--')
 
         plt.title(f'{stat} of team {folder}')
-        plt.legend(title='Spieler', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+        plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
         plt.tight_layout()
 
         plt.savefig(f'output_png/progress_plots/{folder}/{player}/{stat}')
+        plt.close()
+
+def plotGoalie(input_dataframe,stat,folder):
+    """plots multivariate time series and saves .pngs of them"""
+    print(f'plotting stat {stat} for goalies of team {folder}')
+
+    fontP = FontProperties()
+    fontP.set_size('xx-small')
+
+    plt.figure(figsize=(10, 5))
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='nipy_spectral', marker='o', linestyle=':')
+    plt.title(f'{stat} of team {folder}')
+    plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+    plt.xticks(rotation=90)
+    plt.tight_layout()
+
+    plt.savefig(f'output_png/progress_plots/{folder}/{stat}_goalies')
+    print('saving goalie stats...')
+    plt.close()
+
+def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
+    """plots individual entries of multivariate time series and saves .pngs of them"""
+
+    for player in player_list:
+        print(f'plotting stat {stat} for goalie {player}')
+
+        # set up directory for player
+        try:
+            os.makedirs("output_png/progress_plots/{}/{}".format(folder, player), exist_ok=False)
+        except FileExistsError:
+            pass
+
+        # plotting stuff
+        fontP = FontProperties()
+        fontP.set_size('xx-small')
+
+        plt.figure(figsize=(10, 7))
+
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER',
+                                      colormap='nipy_spectral', marker='o',
+                                      linestyle='--')
+
+        plt.title(f'{stat} of team {folder}')
+        plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+        plt.xticks(rotation=90)
+        plt.tight_layout()
+
+        plt.savefig(f'output_png/progress_plots/{folder}/{player}/{stat}_goalie')
         plt.close()
 
 def write(input_dataframe,folder,stat):
