@@ -11,7 +11,7 @@ def main():
     folders = os.listdir(data_dir)
 
     for folder in folders:
-        print(f'analyzing team number {folder}')
+        print(f'\n\nanalyzing team number {folder}')
         #get all files in folder
         files = []
         files.extend(os.listdir('{}/{}/raw_data'.format(data_dir, folder)))
@@ -57,6 +57,8 @@ def main():
             plotOutfield(merged,stat,folder)
             plotOutfieldIndividuals(outfield_players,merged,stat,folder)
             write(merged,folder,stat)
+
+    print('\n\nplotting complete')
 
 def csvConverter(infile,folder):
     """ takes in messy raw data and turns it into readable csv format
@@ -195,6 +197,7 @@ def plotOutfield(input_dataframe,stat,folder):
     plt.tight_layout()
 
     plt.savefig(f'output_png/progress_plots/{folder}/{stat}')
+    plt.close()
 
 def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
     """plots individual entries of multivariate time series and saves .pngs of them"""

@@ -6,7 +6,7 @@ import unicodecsv as csv
 
 
 #be aware, the team id changes once per season!
-teams_seasons = {'U15Elite':['30639'],'U17Elite':['30635'],'U19Elite':['30371']}
+teams_seasons = {'U15Elite':[30639],'U17Elite':[30635],'U19Elite':[30371],'NLA':[30644],'NLB':[]}
 teams = []
 
 def main():
@@ -28,6 +28,7 @@ def main():
             print('creating new directories for team {}...'.format(team))
             os.makedirs("playerProgress_data/{}/raw_data".format(team), exist_ok=False)
             os.makedirs(f'output_png/progress_plots/{team}',exist_ok=False)
+            os.makedirs(f'output_csv/progress_data/{team}', exist_ok=False)
         except OSError:
             print('directories for team {} already exist, skipping...'.format(team))
 
@@ -112,8 +113,12 @@ def scrapeGame(link,team,driver):
     time.sleep(0.5)
 
     league = driver.find_element_by_xpath('/html/body/div[3]/div[1]/div[2]/div/div/div[6]/p').text
-    league = league.split('-')[1]
+    try:
+        league = league.split('-')[1]
+    except IndexError:
+        pass
 
+    #get only stats for specified team
     if left_team.upper() == team:
         return left_content, date, league
     elif right_team.upper() == team:
@@ -135,7 +140,6 @@ def writer(game_stats,game,date,team, league):
         writeR.writerow(league)
 
         cSv = game_stats.split('\n')
-        print(cSv)
 
         for element in cSv:
             # remove whitespace at beginning of strings
