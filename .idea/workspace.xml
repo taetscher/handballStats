@@ -3,15 +3,733 @@
   <component name="ChangeListManager">
     <list default="true" id="938575a6-059f-4d1c-9750-fd936eff0279" name="Default Changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Claudio/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Antonietti Sandro/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Baumann Yanic Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Brenzikofer André/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Bunke Seraphin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Chernov Ivan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Forrer Steven/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gerber Alain Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Glücki Valentin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gobeli Sven/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Gurtner Nicolas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Hug Dominique/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kiener Lars/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Klenja Emush/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Kocher Roman/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lindner Jorden Marc/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Lory Elias/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Aaron/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Meier Joris/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Orode Godwin Ayko/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Recher Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Ruef Mauro Lars/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schenk Adrian/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schär Nicola/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Schöni Gregory/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stettler Nils Jonathan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Stüdle Nicolas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/Zehr Tobias/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30370/van den Nobelen Timon/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Chernov Ivan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Ebner Leo Aliou/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Hug Sascha Marius/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kuster Noël/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Marti Rouven/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Neuenschwander Dominic/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Recher Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Flavian/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Römer Leandro Maurin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Schöni Gregory/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Stettler Nils Jonathan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Aebi Fabian Timon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Joshua/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Egger David Philip/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Gerber Marc/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hermann Janis Lukas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Hirsch Elias Benjamin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Plüss Thierry Lionardo Bonaventura/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Roth Alexander/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Rudin Sebastian/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Flavian/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schweizer Micha/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Stettler Luc Eric/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zahm Justin John Werner/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Baumann Joshua/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Dähler Nicolas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Karlen Jean-Baptiste/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Lädrach Gregory Levin/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Marthaler Ivan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Neiger Dominic/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Roth Dominik/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rudin Sebastian/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Rusch David/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Schranz Louis Orlando/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Delhees Ron/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Dähler Jonas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Felder Gabriel/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Friedli Reto/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Giovanelli Marco/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Gruber Nino/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Guignet Damien/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Haas Noah/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Holm Phillip Tandrup/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lanz Thomas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Linder Luca/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Lüthi Dario/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Manse Cedric/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Raemy Nicolas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Schwab Yannick/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Suter Nicolas/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/%_goalies.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Christinat Joël/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Giovanelli Marco/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gruber Nino/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Karlen Janes/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lory Elias/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Lutz Nico/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Manse Cedric/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Meier Aaron/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Recher Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Scheidegger Roman/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Schwab Yannick/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Sorgen Janick/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stebler Urs/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/V.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%_goalie.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/2'.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/D.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/TF.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30370/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30370/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/%" />
@@ -31,11 +749,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/%" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/D" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/%" />
@@ -47,8 +762,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotterProgress.py" afterPath="$PROJECT_DIR$/plotterProgress.py" />
@@ -94,8 +812,8 @@
       <file leaf-file-name="plotterProgress.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotterProgress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="294" column="85" lean-forward="false" selection-start-line="294" selection-start-column="85" selection-end-line="294" selection-end-column="85" />
+            <state relative-caret-position="9">
+              <caret line="256" column="72" lean-forward="false" selection-start-line="256" selection-start-column="72" selection-end-line="256" selection-end-column="72" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#287#3738#0" expanded="false" />
@@ -105,20 +823,49 @@
                 <element signature="e#7179#8097#0" expanded="false" />
                 <element signature="e#8161#9058#0" expanded="false" />
                 <element signature="e#9111#9790#0" expanded="false" />
-                <element signature="e#9869#10885#0" expanded="false" />
-                <element signature="e#11749#12810#0" expanded="false" />
-                <marker date="1598014910555" expanded="false" signature="12851:12936" ph="..." />
-                <marker date="1598014910555" expanded="false" signature="12955:13185" ph="..." />
+                <element signature="e#9869#10882#0" expanded="false" />
+                <element signature="e#10933#11666#0" expanded="false" />
+                <element signature="e#11743#12801#0" expanded="false" />
+                <marker date="1598015468535" expanded="false" signature="12842:12927" ph="..." />
+                <marker date="1598015468535" expanded="false" signature="12946:13176" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plotterPlayerStats.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="%.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="%_goalie.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="%.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/%.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="%_goalies.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plotterPlayerStats.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotterPlayerStats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="54" />
+            <state relative-caret-position="273">
+              <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
               <folding>
                 <element signature="e#159#201#0" expanded="false" />
                 <element signature="e#230#272#0" expanded="false" />
@@ -235,6 +982,14 @@
               <item name="output_png" type="462c0819:PsiDirectoryNode" />
               <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
               <item name="30635" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
+              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+              <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
+              <item name="30635" type="462c0819:PsiDirectoryNode" />
+              <item name="Schmutz Lukas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,10 +1210,11 @@
             <element signature="e#7179#8097#0" expanded="false" />
             <element signature="e#8161#9058#0" expanded="false" />
             <element signature="e#9111#9790#0" expanded="false" />
-            <element signature="e#9869#10885#0" expanded="false" />
-            <element signature="e#11749#12810#0" expanded="false" />
-            <marker date="1598014910555" expanded="false" signature="12851:12936" ph="..." />
-            <marker date="1598014910555" expanded="false" signature="12955:13185" ph="..." />
+            <element signature="e#9869#10882#0" expanded="false" />
+            <element signature="e#10933#11666#0" expanded="false" />
+            <element signature="e#11743#12801#0" expanded="false" />
+            <marker date="1598015468535" expanded="false" signature="12842:12927" ph="..." />
+            <marker date="1598015468535" expanded="false" signature="12946:13176" ph="..." />
           </folding>
         </state>
       </provider>
@@ -731,10 +1487,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plotterPlayerStats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="e#159#201#0" expanded="false" />
+            <element signature="e#230#272#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotterProgress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="294" column="85" lean-forward="false" selection-start-line="294" selection-start-column="85" selection-end-line="294" selection-end-column="85" />
+        <state relative-caret-position="9">
+          <caret line="256" column="72" lean-forward="false" selection-start-line="256" selection-start-column="72" selection-end-line="256" selection-end-column="72" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#287#3738#0" expanded="false" />
@@ -744,15 +1511,21 @@
             <element signature="e#7179#8097#0" expanded="false" />
             <element signature="e#8161#9058#0" expanded="false" />
             <element signature="e#9111#9790#0" expanded="false" />
-            <element signature="e#9869#10885#0" expanded="false" />
-            <element signature="e#11749#12810#0" expanded="false" />
-            <marker date="1598014910555" expanded="false" signature="12851:12936" ph="..." />
-            <marker date="1598014910555" expanded="false" signature="12955:13185" ph="..." />
+            <element signature="e#9869#10882#0" expanded="false" />
+            <element signature="e#10933#11666#0" expanded="false" />
+            <element signature="e#11743#12801#0" expanded="false" />
+            <marker date="1598015468535" expanded="false" signature="12842:12927" ph="..." />
+            <marker date="1598015468535" expanded="false" signature="12946:13176" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png">
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -762,15 +1535,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotterPlayerStats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="54" />
-          <folding>
-            <element signature="e#159#201#0" expanded="false" />
-            <element signature="e#230#272#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

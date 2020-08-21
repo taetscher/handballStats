@@ -268,7 +268,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
         #plotting stuff
         fontP = FontProperties()
-        fontP.set_size('xx-small')
+        fontP.set_size('small')
 
         plt.figure(figsize=(10, 7))
 
@@ -288,7 +288,7 @@ def plotGoalie(input_dataframe,stat,folder):
     print(f'plotting stat {stat} for goalies of team {get_key(folder)}')
 
     fontP = FontProperties()
-    fontP.set_size('xx-small')
+    fontP.set_size('small')
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
@@ -316,7 +316,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
 
         # plotting stuff
         fontP = FontProperties()
-        fontP.set_size('xx-small')
+        fontP.set_size('small')
 
         plt.figure(figsize=(10, 7))
 
