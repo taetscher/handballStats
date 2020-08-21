@@ -15,6 +15,7 @@ I would like to expand on this in the future.
 ### Use the options.py file to navigate the output_png directory more swiftly!
 In there you can see what number corresponds to which team - as the Swiss Handball Federation assigns each team a unique number per season.
 
+![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/progress_plots/30644/%25_goalies.png "Example Statistic")
 ![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/U15_Elite_201920_meanGoalsPerPlayerPerTeamPerGame.png "Example Statistic")
 
 
