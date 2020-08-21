@@ -2,7 +2,7 @@
 This repository was created for me to learn about web scraping and git/github flow.
 If you have any comments, ideas for improvement, let me know!
 
-This repository allows you to scrape data from handball.ch.
+This repository allows you to scrape data from <a href="https://www.handball.ch/de/matchcenter/" target="blank">handball.ch</a>.
 It gets overall player statistics of pre-defined groups (corresponding to leagues/years).
 Furthermore, the program gets statistics of each individual game (liveticker-stats) and plots (per stat available) multivariate time series of each team as well as time series data (progression over the season) of each player of each team.
 
