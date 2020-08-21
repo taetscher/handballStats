@@ -272,7 +272,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
         plt.figure(figsize=(10, 7))
 
-        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='tab20', marker='o',
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='turbo', marker='o',
                                       linestyle='-.')
 
         plt.title(f'outfield player {stat} of team {get_key(folder)}')
@@ -292,7 +292,7 @@ def plotGoalie(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='tab20', marker='o', linestyle='-.')
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='turbo', marker='o', linestyle='-.')
     plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
@@ -321,7 +321,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
         plt.figure(figsize=(10, 7))
 
         output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER',
-                                      colormap='tab20', marker='o',
+                                      colormap='turbo', marker='o',
                                       linestyle='-.')
 
         plt.title(f'goalie save{stat} of team {get_key(folder)}')
