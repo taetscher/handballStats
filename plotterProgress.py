@@ -244,7 +244,8 @@ def plotOutfield(input_dataframe,stat,folder):
     fontP.set_size('xx-small')
 
     plt.figure(figsize=(10, 5))
-    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='nipy_spectral', marker='o', linestyle=':')
+    input_dataframe = input_dataframe.sort_values(by = 'SPIELER')
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='tab20', marker='o', linestyle='-.')
     plt.title(f'outfield player {stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
@@ -271,8 +272,8 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
         plt.figure(figsize=(10, 7))
 
-        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='nipy_spectral', marker='o',
-                                      linestyle='--')
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='tab20', marker='o',
+                                      linestyle='-.')
 
         plt.title(f'outfield player {stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
@@ -290,7 +291,8 @@ def plotGoalie(input_dataframe,stat,folder):
     fontP.set_size('xx-small')
 
     plt.figure(figsize=(10, 5))
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='nipy_spectral', marker='o', linestyle=':')
+    input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='tab20', marker='o', linestyle='-.')
     plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
@@ -319,8 +321,8 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
         plt.figure(figsize=(10, 7))
 
         output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER',
-                                      colormap='nipy_spectral', marker='o',
-                                      linestyle='--')
+                                      colormap='tab20', marker='o',
+                                      linestyle='-.')
 
         plt.title(f'goalie save{stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)

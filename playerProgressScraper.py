@@ -5,7 +5,6 @@ import os
 import unicodecsv as csv
 import options
 
-
 #be aware, the team id changes once per season!
 teams_seasons = options.teams_seasons
 teams = []
