@@ -292,7 +292,7 @@ def plotGoalie(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='turbo', marker='o', linestyle='-.')
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='gist_rainbow', marker='o', linestyle='-.')
     plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
