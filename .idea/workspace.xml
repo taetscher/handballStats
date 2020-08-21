@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938575a6-059f-4d1c-9750-fd936eff0279" name="Default Changelist" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/options.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/%_goalies.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/%.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Antonietti Claudio/2'.png" />
@@ -15,6 +17,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Baumann Yanic Simon/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Brenzikofer André/TF.png" />
@@ -31,6 +34,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Christen Keanu/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Dubach Cyrill/TF.png" />
@@ -46,6 +50,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Fassmann Cyril/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Gerber Alain Simon/TF.png" />
@@ -61,6 +66,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Karlen Lionel/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Kocher Roman/TF.png" />
@@ -118,11 +124,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Wolf Patrick Stephan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30371/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/%_goalies.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/%.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Adamina Lorin/2'.png" />
@@ -145,12 +153,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Baumann Yanic Simon/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Brenzikofer André/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Ebner Leo Aliou/TF.png" />
@@ -181,6 +191,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Kiener Nils/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Pena Perez Dave León/TF.png" />
@@ -211,6 +222,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Römer Leandro Maurin/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Schmutz Lukas/TF.png" />
@@ -243,6 +255,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30635/Zuege Jan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/%_goalies.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/%.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Aebi Fabian Timon/2'.png" />
@@ -266,6 +279,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Frischknecht Lasse/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Grandi Davide/TF.png" />
@@ -281,6 +295,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Klaeser Valentin Alexander/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Leuenberger Timon/TF.png" />
@@ -323,6 +338,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/Zilic Marko/TF.png" />
@@ -333,6 +349,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30639/van den Nobelen Robin Till/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/%_goalies.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/%.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Bouilloux Roman/2'.png" />
@@ -396,6 +413,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Huwyler Stefan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Klenja Emush/TF.png" />
@@ -438,11 +456,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wick Flavio/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Winkler Marc/TF.png" />
@@ -453,11 +473,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Wyttenbach Ivan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/30644/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/%_goalies.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/%_goalies.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/%.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Chernov Ivan/2'.png" />
@@ -476,6 +498,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Drollinger Yannick/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Gerber Alain Simon/TF.png" />
@@ -501,6 +524,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kiener Lars/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Kocher Roman/TF.png" />
@@ -556,6 +580,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Jan/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Stettler Ramon/TF.png" />
@@ -563,36 +588,53 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%_goalie.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/%_goalie.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/2'.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/2'.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/D.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/D.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/TF.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/TF.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/V.png" afterPath="$PROJECT_DIR$/output_png/progress_plots/31092/Zuege Tim/V.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30371/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30371/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30635/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30635/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30639/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30639/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/30644/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/30644/V" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/%" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/%" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/%_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/%_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/2'" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/2'" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/7M_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/7M_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/D" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/P-W_goalie" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/P-W_goalie" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/TF" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/TF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_csv/progress_data/31092/V" afterPath="$PROJECT_DIR$/output_csv/progress_data/31092/V" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerProgressScraper.py" afterPath="$PROJECT_DIR$/playerProgressScraper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotterProgress.py" afterPath="$PROJECT_DIR$/plotterProgress.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -619,10 +661,15 @@
       <file leaf-file-name="playerProgressScraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#258#1623#0" expanded="false" />
+                <element signature="e#1661#2719#0" expanded="false" />
+                <element signature="e#2750#3072#0" expanded="false" />
+                <element signature="e#3112#4556#0" expanded="false" />
+                <element signature="e#4609#5460#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -631,30 +678,31 @@
       <file leaf-file-name="plotterProgress.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotterProgress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-733">
-              <caret line="77" column="56" lean-forward="false" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
+            <state relative-caret-position="133">
+              <caret line="335" column="17" lean-forward="false" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#3514#6661#0" expanded="false" />
-                <element signature="e#6688#6747#0" expanded="false" />
-                <element signature="e#6781#6850#0" expanded="false" />
-                <element signature="e#6916#7834#0" expanded="false" />
-                <element signature="e#7898#8795#0" expanded="false" />
-                <element signature="e#8848#9434#0" expanded="false" />
-                <element signature="e#9513#10512#0" expanded="false" />
+                <element signature="e#287#3738#0" expanded="false" />
+                <element signature="e#3777#6924#0" expanded="false" />
+                <element signature="e#6951#7010#0" expanded="false" />
+                <element signature="e#7044#7113#0" expanded="false" />
+                <element signature="e#7179#8097#0" expanded="false" />
+                <element signature="e#8161#9058#0" expanded="false" />
+                <element signature="e#9111#9731#0" expanded="false" />
+                <element signature="e#9810#10834#0" expanded="false" />
+                <element signature="e#10885#11556#0" expanded="false" />
+                <element signature="e#11633#12702#0" expanded="false" />
+                <element signature="e#12852#13077#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="19_08_31_game385689_goalies.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playerProgress_data/30371/19_08_31_game385689_goalies.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
+      <file leaf-file-name="options.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/options.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -686,7 +734,9 @@
         <option value="$PROJECT_DIR$/scraper.py" />
         <option value="$PROJECT_DIR$/plotterPlayerStats.py" />
         <option value="$PROJECT_DIR$/playerStatsScraper.py" />
+        <option value="$PROJECT_DIR$/options.txt" />
         <option value="$PROJECT_DIR$/playerProgressScraper.py" />
+        <option value="$PROJECT_DIR$/options.py" />
         <option value="$PROJECT_DIR$/plotterProgress.py" />
       </list>
     </option>
@@ -725,17 +775,6 @@
             <path>
               <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
               <item name="handballStats" type="462c0819:PsiDirectoryNode" />
-              <item name="output_csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
-              <item name="output_csv" type="462c0819:PsiDirectoryNode" />
-              <item name="progress_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
               <item name="output_png" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -749,18 +788,15 @@
               <item name="handballStats" type="462c0819:PsiDirectoryNode" />
               <item name="output_png" type="462c0819:PsiDirectoryNode" />
               <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
-              <item name="30644" type="462c0819:PsiDirectoryNode" />
+              <item name="30635" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
               <item name="handballStats" type="462c0819:PsiDirectoryNode" />
-              <item name="playerProgress_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="handballStats" type="b2602c69:ProjectViewProjectNode" />
-              <item name="handballStats" type="462c0819:PsiDirectoryNode" />
-              <item name="playerProgress_data" type="462c0819:PsiDirectoryNode" />
-              <item name="30371" type="462c0819:PsiDirectoryNode" />
+              <item name="output_png" type="462c0819:PsiDirectoryNode" />
+              <item name="progress_plots" type="462c0819:PsiDirectoryNode" />
+              <item name="30635" type="462c0819:PsiDirectoryNode" />
+              <item name="Targise Giuliano" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -909,7 +945,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.509375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -931,7 +967,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -974,13 +1010,17 @@
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#3514#6661#0" expanded="false" />
-            <element signature="e#6688#6747#0" expanded="false" />
-            <element signature="e#6781#6850#0" expanded="false" />
-            <element signature="e#6916#7834#0" expanded="false" />
-            <element signature="e#7898#8795#0" expanded="false" />
-            <element signature="e#8848#9434#0" expanded="false" />
-            <element signature="e#9513#10512#0" expanded="false" />
+            <element signature="e#287#3738#0" expanded="false" />
+            <element signature="e#3777#6924#0" expanded="false" />
+            <element signature="e#6951#7010#0" expanded="false" />
+            <element signature="e#7044#7113#0" expanded="false" />
+            <element signature="e#7179#8097#0" expanded="false" />
+            <element signature="e#8161#9058#0" expanded="false" />
+            <element signature="e#9111#9731#0" expanded="false" />
+            <element signature="e#9810#10834#0" expanded="false" />
+            <element signature="e#10885#11556#0" expanded="false" />
+            <element signature="e#11633#12702#0" expanded="false" />
+            <element signature="e#12852#13077#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,16 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="30" column="50" lean-forward="false" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/playerProgress_data/30371/19_08_31_game385689_goalies.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -1206,19 +1236,64 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/options_teams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/%.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_png/progress_plots/30635/Targise Giuliano/2'.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerProgressScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#258#1623#0" expanded="false" />
+            <element signature="e#1661#2719#0" expanded="false" />
+            <element signature="e#2750#3072#0" expanded="false" />
+            <element signature="e#3112#4556#0" expanded="false" />
+            <element signature="e#4609#5460#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotterProgress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="77" column="56" lean-forward="false" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
+        <state relative-caret-position="133">
+          <caret line="335" column="17" lean-forward="false" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#3514#6661#0" expanded="false" />
-            <element signature="e#6688#6747#0" expanded="false" />
-            <element signature="e#6781#6850#0" expanded="false" />
-            <element signature="e#6916#7834#0" expanded="false" />
-            <element signature="e#7898#8795#0" expanded="false" />
-            <element signature="e#8848#9434#0" expanded="false" />
-            <element signature="e#9513#10512#0" expanded="false" />
+            <element signature="e#287#3738#0" expanded="false" />
+            <element signature="e#3777#6924#0" expanded="false" />
+            <element signature="e#6951#7010#0" expanded="false" />
+            <element signature="e#7044#7113#0" expanded="false" />
+            <element signature="e#7179#8097#0" expanded="false" />
+            <element signature="e#8161#9058#0" expanded="false" />
+            <element signature="e#9111#9731#0" expanded="false" />
+            <element signature="e#9810#10834#0" expanded="false" />
+            <element signature="e#10885#11556#0" expanded="false" />
+            <element signature="e#11633#12702#0" expanded="false" />
+            <element signature="e#12852#13077#0" expanded="false" />
           </folding>
         </state>
       </provider>

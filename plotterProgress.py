@@ -3,9 +3,11 @@ import pandas as pd
 from pandas.plotting import parallel_coordinates
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
-import itertools
+import options
 
 data_dir = 'playerProgress_data'
+teams_seasons = options.teams_seasons
+print(teams_seasons)
 
 def main():
     folders = os.listdir(data_dir)
@@ -77,11 +79,13 @@ def main():
                     plotGoalie(merged_goalies, stat, folder)
                     plotGoalieIndividuals(goalie_players, merged_goalies, stat, folder)
                 except TypeError:
-                    print('TypeError')
+                    # print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
+                    # 'but then the information would get lost because it would be identical to %-stat')
                     pass
             except ValueError:
-                print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
-                      'but then the information would get lost because it would be identical to %-stat')
+                #print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
+                      #'but then the information would get lost because it would be identical to %-stat')
+                pass
 
             write(merged_goalies, folder, str(stat).replace('/','-')+'_goalie')
 
@@ -233,7 +237,7 @@ def mergeStatsGoalie(games_list,player_list,stat,folder):
 
 def plotOutfield(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
-    print(f'plotting stat {stat} for team {folder}')
+    print(f'plotting stat {stat} for team {get_key(folder)}')
 
 
     fontP = FontProperties()
@@ -241,7 +245,7 @@ def plotOutfield(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     output = parallel_coordinates(input_dataframe,'SPIELER', colormap='nipy_spectral', marker='o', linestyle=':')
-    plt.title(f'{stat} of team {folder}')
+    plt.title(f'outfield player {stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
@@ -270,7 +274,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
         output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='nipy_spectral', marker='o',
                                       linestyle='--')
 
-        plt.title(f'{stat} of team {folder}')
+        plt.title(f'outfield player {stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
         plt.tight_layout()
@@ -280,14 +284,14 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
 def plotGoalie(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
-    print(f'plotting stat {stat} for goalies of team {folder}')
+    print(f'plotting stat {stat} for goalies of team {get_key(folder)}')
 
     fontP = FontProperties()
     fontP.set_size('xx-small')
 
     plt.figure(figsize=(10, 5))
     output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='nipy_spectral', marker='o', linestyle=':')
-    plt.title(f'{stat} of team {folder}')
+    plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
@@ -318,7 +322,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
                                       colormap='nipy_spectral', marker='o',
                                       linestyle='--')
 
-        plt.title(f'{stat} of team {folder}')
+        plt.title(f'goalie save{stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
         plt.tight_layout()
@@ -329,8 +333,14 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
 def write(input_dataframe,folder,stat):
     input_dataframe.to_csv(f'output_csv/progress_data/{folder}/{stat}', index=False)
 
+def get_key(val):
+    """returns the key to a value in a dictionary"""
+    for team, numbers in teams_seasons.items():
+        for element in numbers:
+            if eval(val) == element:
+                return team
 
-
+    return "key doesn't exist"
 
 if __name__ == '__main__':
     main()

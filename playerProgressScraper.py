@@ -3,10 +3,11 @@ from selenium.webdriver.common.keys import Keys
 import time
 import os
 import unicodecsv as csv
+import options
 
 
 #be aware, the team id changes once per season!
-teams_seasons = {'U15Elite':[30639],'U17Elite':[30635],'U19Elite':[30371],'NLA':[30644],'NLB':[]}
+teams_seasons = options.teams_seasons
 teams = []
 
 def main():
@@ -25,8 +26,8 @@ def main():
     # check if output directory already exists, create new one if not
     for team in teams:
         try:
-            print('creating new directories for team {}...'.format(team))
-            os.makedirs("playerProgress_data/{}/raw_data".format(team), exist_ok=False)
+            print(f'creating new directories for team {team}...')
+            os.makedirs(f"playerProgress_data/{team}/raw_data", exist_ok=False)
             os.makedirs(f'output_png/progress_plots/{team}',exist_ok=False)
             os.makedirs(f'output_csv/progress_data/{team}', exist_ok=False)
         except OSError:
