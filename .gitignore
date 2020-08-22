@@ -1,3 +1,4 @@
 #files to untrack
 geckodriver.log
 #.csv
+.idea/
