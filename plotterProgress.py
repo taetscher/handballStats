@@ -28,7 +28,7 @@ def csvConverter(infile,folder):
         lines = infile.readlines()
         date = lines[0].split(' ')[1]
         header = lines[2]
-        
+
         print(lines)
         print(date,header)
 
