@@ -259,7 +259,12 @@ def plotOutfield(input_dataframe,stat,folder):
     plt.xticks(rotation=90)
     plt.tight_layout()
 
-    plt.savefig(f'output_png/progress_plots/{folder}/{stat}', dpi=300)
+    if stat == '%':
+        #save all players scoring % at higher dpi for better zoomability
+        plt.savefig(f'output_png/progress_plots/{folder}/{stat}', dpi=300)
+    else:
+        plt.savefig(f'output_png/progress_plots/{folder}/{stat}')
+
     plt.close()
 
 def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
@@ -305,7 +310,7 @@ def plotGoalie(input_dataframe,stat,folder):
     plt.xticks(rotation=90)
     plt.tight_layout()
 
-    plt.savefig(f'output_png/progress_plots/{folder}/{stat}_goalies', dpi=300)
+    plt.savefig(f'output_png/progress_plots/{folder}/{stat}_goalies')
     print('saving goalie stats...')
     plt.close()
 
