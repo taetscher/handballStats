@@ -14,7 +14,7 @@ print(teams_seasons)
 plt.style.use('dark_background')
 plt.rc('lines', linewidth=1)
 plt.rc('lines', markersize=8)
-plt.rc('axes', prop_cycle=(cycler('marker', ['o','*','d','s']))+ cycler('linestyle', ['-', ':', '--','-.']), axisbelow=True)
+plt.rc('axes', prop_cycle=(cycler('marker', ['.','*','+','x']))+ cycler('linestyle', ['-', ':', '--','-.']), axisbelow=True)
 plt.rc('grid', c='white', ls=':', lw=0.4)
 
 
