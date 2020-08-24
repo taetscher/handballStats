@@ -1,1 +1,6 @@
-teams_seasons = {'U15Elite':[30639],'U17Elite':[30635],'U19Elite':[30371],'NLA':[30644],'NLB':[31092], '1.Liga':[30370]}
+teams_seasons = {'Wacker Thun U15 Elite':[30639],
+                 'Wacker Thun U17 Elite':[30635],
+                 'Wacker Thun U19 Elite':[30371],
+                 'Wacker Thun NLA':[30644],
+                 'TV Steffisburg NLB':[31092],
+                 'Wacker Thun 1.Liga':[30370]}
