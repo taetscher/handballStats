@@ -4,12 +4,15 @@ from pandas.plotting import parallel_coordinates
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import options
-import cmasher as cmr
+from cycler import cycler
 
 data_dir = 'playerProgress_data'
 teams_seasons = options.teams_seasons
-pride = cmr.pride
 print(teams_seasons)
+
+
+plt.rc('lines', linewidth=0.5)
+plt.rc('axes', prop_cycle=(cycler('marker', ['o','v','*','d']))+ cycler('linestyle', ['-', '--', ':', '-.']) )
 
 def main():
     folders = os.listdir(data_dir)
@@ -247,7 +250,7 @@ def plotOutfield(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by = 'SPIELER')
-    output = parallel_coordinates(input_dataframe,'SPIELER', colormap=pride, marker='o', linestyle='-.')
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='turbo')
     plt.title(f'outfield player {stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
