@@ -12,7 +12,10 @@ print(teams_seasons)
 
 plt.style.use('dark_background')
 plt.rc('lines', linewidth=1)
-plt.rc('axes', prop_cycle=(cycler('marker', ['o','v','*','d']))+ cycler('linestyle', ['-', '--', ':', '-.']) )
+plt.rc('lines', markersize=8)
+plt.rc('axes', prop_cycle=(cycler('marker', ['o','v','*','d']))+ cycler('linestyle', ['-', '--', ':', '-.']), axisbelow=True)
+plt.rc('grid', c='white', ls=':', lw=0.5)
+#plt.rc('savefig', dpi=300)
 
 def main():
     folders = os.listdir(data_dir)
@@ -246,18 +249,17 @@ def plotOutfield(input_dataframe,stat,folder):
 
 
     fontP = FontProperties()
-    fontP.set_size('xx-small')
+    fontP.set_size('small')
 
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(15, 7))
     input_dataframe = input_dataframe.sort_values(by = 'SPIELER')
-    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='viridis',zorder=1000).grid(b=True, axis='both', color='white', linestyle=':', zorder=100)
-    #plt.grid(b=True, axis='x', color='black', zorder=0)
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='viridis',zorder=1000)
     plt.title(f'outfield player scoring {stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
 
-    plt.savefig(f'output_png/progress_plots/{folder}/{stat}')
+    plt.savefig(f'output_png/progress_plots/{folder}/{stat}', dpi=300)
     plt.close()
 
 def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
@@ -278,7 +280,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
         plt.figure(figsize=(10, 7))
 
-        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='viridis_r', zorder=1000).grid(axis='y', color='white', linestyle=':', zorder=100)
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='viridis_r', zorder=1000)
 
         plt.title(f'outfield player scoring {stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
@@ -297,13 +299,13 @@ def plotGoalie(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', zorder=1000).grid(axis='y', color='white', linestyle=':', zorder=100)
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', zorder=1000)
     plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
 
-    plt.savefig(f'output_png/progress_plots/{folder}/{stat}_goalies')
+    plt.savefig(f'output_png/progress_plots/{folder}/{stat}_goalies', dpi=300)
     print('saving goalie stats...')
     plt.close()
 
@@ -325,7 +327,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
 
         plt.figure(figsize=(10, 7))
 
-        output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER', colormap='viridis_r').grid(axis='y', color='white', linestyle=':', zorder=100)
+        output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER', colormap='viridis_r')
 
         plt.title(f'goalie save{stat} of team {get_key(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
