@@ -4,9 +4,11 @@ from pandas.plotting import parallel_coordinates
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import options
+import cmasher as cmr
 
 data_dir = 'playerProgress_data'
 teams_seasons = options.teams_seasons
+pride = cmr.pride
 print(teams_seasons)
 
 def main():
@@ -245,7 +247,7 @@ def plotOutfield(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by = 'SPIELER')
-    output = parallel_coordinates(input_dataframe,'SPIELER', colormap='tab20', marker='o', linestyle='-.')
+    output = parallel_coordinates(input_dataframe,'SPIELER', colormap=pride, marker='o', linestyle='-.')
     plt.title(f'outfield player {stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
@@ -292,7 +294,7 @@ def plotGoalie(input_dataframe,stat,folder):
 
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='gist_rainbow', marker='o', linestyle='-.')
+    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', marker='o', linestyle='-.')
     plt.title(f'goalie save{stat} of team {get_key(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
@@ -342,17 +344,8 @@ def get_key(val):
             if eval(val) == element:
                 return team
 
-<<<<<<< HEAD
-    with open('{}/{}/{}'.format(data_dir,folder,infile), 'r') as infile:
-        lines = infile.readlines()
-        date = lines[0].split(' ')[1]
-        header = lines[2]
-
-        print(lines)
-        print(date,header)
-=======
     return "key doesn't exist"
->>>>>>> 2474742e798da51d2224e296b4908a0ab7eadc3d
+
 
 if __name__ == '__main__':
     main()
