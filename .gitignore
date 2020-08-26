@@ -1,5 +1,6 @@
 #files to untrack
 geckodriver.log
+ghostdriver.log
 #.csv
 .idea/
 .idea/workspace.xml
