@@ -6,9 +6,9 @@ from matplotlib.font_manager import FontProperties
 import options
 from cycler import cycler
 
+#loading in the options file
 data_dir = 'playerProgress_data'
 teams_seasons = options.teams_seasons
-#print(teams_seasons)
 
 #set rc params for matplotlib
 plt.style.use('dark_background')
@@ -50,9 +50,6 @@ def main():
                     goalies.append(file)
                 else:
                     pass
-
-            #do pandas calculations/joins to be able to have each game as a column, each player as a row
-            #create empty dataframe to which to join all of the information of each file
 
             #first, generate a list of all players who have played over the course of the whole season
             outfield_players = []
@@ -142,54 +139,63 @@ def csvConverter(infile,team_folder,season):
             staff_index = index + 1
         else:
             pass
+    try:
+        #this try/except statement is here because there can be faulty raw_.csv files, avoid those and skip
+        #Champions League games, for instance, can trigger these exceptions because of bad stats
 
-    player_data = data[4:goalie_index-2]
-    goalie_data = data[goalie_index:staff_index-2]
-    header_goalies = cleanUp(data[goalie_index-1]).replace(' ',',')
+        player_data = data[4:goalie_index - 2]
+        goalie_data = data[goalie_index:staff_index - 2]
+        header_goalies = cleanUp(data[goalie_index - 1]).replace(' ', ',')
 
+        # write the cleaned data into two seperate files
+        # outfield players
+        with open(f'{data_dir}/{team_folder}/{season}/{date}_{game_number}_outfield.csv', 'w',
+                  encoding='utf-8') as outfile:
+            outfile.write(header_players + '\n')
+            for element in player_data:
+                element = element[0].split(',')
+                element = str(element[1:]).strip("[").strip("]")
 
-    #write the cleaned data into two seperate files
-    #outfield players
-    with open(f'{data_dir}/{team_folder}/{season}/{date}_{game_number}_outfield.csv','w',encoding='utf-8') as outfile:
-        outfile.write(header_players +'\n')
-        for element in player_data:
-            element = element[0].split(',')
-            element = str(element[1:]).strip("[").strip("]")
+                player_names = eval(element)[:-7]
+                player_name = ''
+                for segment in player_names:
+                    player_name = player_name.strip() + ' ' + segment
 
-            player_names = eval(element)[:-7]
-            player_name = ''
-            for segment in player_names:
-                player_name = player_name.strip() + ' ' + segment
+                player_stats_in = eval(element)[-7:]
+                player_stats = []
+                for stat in player_stats_in:
+                    player_stats.append(str(stat))
 
-            player_stats_in = eval(element)[-7:]
-            player_stats = []
-            for stat in player_stats_in:
-                player_stats.append(str(stat))
+                element = str(player_name) + ',' + str(player_stats).strip('[').strip(']').replace("'", '').replace(' ',
+                                                                                                                    '')
+                outfile.write(element + '\n')
+            outfile.close()
 
-            element = str(player_name) + ',' + str(player_stats).strip('[').strip(']').replace("'",'').replace(' ','')
-            outfile.write(element +'\n')
-        outfile.close()
+        # goalies
+        with open(f'{data_dir}/{team_folder}/{season}/{date}_{game_number}_goalies.csv', 'w',
+                  encoding='utf-8') as outfile:
+            outfile.write(header_goalies + '\n')
+            for element in goalie_data:
+                element = element[0].split(',')
+                element = str(element[1:]).strip("[").strip("]")
 
-    #goalies
-    with open(f'{data_dir}/{team_folder}/{season}/{date}_{game_number}_goalies.csv','w',encoding='utf-8') as outfile:
-        outfile.write(header_goalies + '\n')
-        for element in goalie_data:
-            element = element[0].split(',')
-            element = str(element[1:]).strip("[").strip("]")
+                goalie_names = eval(element)[:-3]
+                goalie_name = ''
+                for segment in goalie_names:
+                    goalie_name = goalie_name.strip() + ' ' + segment
 
-            goalie_names = eval(element)[:-3]
-            goalie_name = ''
-            for segment in goalie_names:
-                goalie_name = goalie_name.strip() + ' ' + segment
+                goalie_stats_in = eval(element)[-3:]
+                goalie_stats = []
+                for stat in goalie_stats_in:
+                    goalie_stats.append(str(stat))
 
-            goalie_stats_in = eval(element)[-3:]
-            goalie_stats = []
-            for stat in goalie_stats_in:
-                goalie_stats.append(str(stat))
+                element = str(goalie_name) + ',' + str(goalie_stats).strip('[').strip(']').replace("'", '').replace(' ',
+                                                                                                                    '')
+                outfile.write(element + '\n')
+            outfile.close()
+    except TypeError:
+        print('raw_file has errors, skipping this one...')
 
-            element = str(goalie_name) + ',' + str(goalie_stats).strip('[').strip(']').replace("'", '').replace(' ', '')
-            outfile.write(element + '\n')
-        outfile.close()
 
 def cleanUp(inlist):
     return str(inlist).strip("['").strip("']").replace(',',' ')

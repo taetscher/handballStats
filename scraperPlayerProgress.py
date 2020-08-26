@@ -5,7 +5,7 @@ import os
 import unicodecsv as csv
 import options
 
-#be aware, the team id changes once per season!
+#loading in the options file
 teams_seasons = options.teams_seasons
 teams = []
 
@@ -19,6 +19,7 @@ def main():
         #on mac
         #executable_path = r'/Users/benischuepbach/Desktop/Coding/sources/geckodriver')
 
+    #get team ids from options.py
     for season in teams_seasons.values():
         for id in season.values():
             teams.extend(id)
@@ -31,12 +32,17 @@ def main():
             os.makedirs(f'output_png/progress_plots/{get_team(team)}/{get_season(team)}',exist_ok=False)
             os.makedirs(f'output_csv/progress_data/{get_team(team)}/{get_season(team)}', exist_ok=False)
         except OSError:
-            print(f'directories for team {get_team(team)} and season {get_season(team)} already exist, skipping...')
+            print(f'directories for team {get_team(team)} and season {get_season(team)} already exist, skipping...\n')
 
     for team in teams:
-        team_name, games = findGamesPage(driver, team)
+        season = get_season(team)
+        year_start = season.split(' ')[1].split('_')[0]
+        year_finish = season.split(' ')[1].split('_')[1]
+
+        team_name, games = findGamesPage(driver, team,year_start,year_finish)
 
         for game in games:
+            time.sleep(0.1)
             link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
             game_stats, date, league = scrapeGame(link, team_name, driver)
             writer(game_stats, game, date, team, league)
@@ -46,20 +52,20 @@ def main():
     print('scraping successfully terminated, closing firefox...')
     driver.quit()
 
-def findGamesPage(driver,team):
+def findGamesPage(driver,team,year_start,year_finish):
     """finds all games played by specified team
 
     returns a list of game ids"""
 
     # specify url
-    urlpage = 'https://www.handball.ch/de/matchcenter/teams/{}'.format(team)
+    urlpage = 'https://www.handball.ch/de/matchcenter/teams/{}#/games'.format(team)
     print('\n\nscraping... ', urlpage)
 
     driver.get(urlpage)
     time.sleep(2)
 
     team_name = driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/div/div[2]/h1').text
-    print('\nscraping games of team: {}'.format(team_name))
+    print(f'\nscraping games of team: {team_name}, season {year_start}/{year_finish}')
 
     games_button = driver.find_element_by_xpath('//*[@id="games-tab"]')
     games_button.click()
@@ -67,11 +73,11 @@ def findGamesPage(driver,team):
     time.sleep(0.5)
     first_date = driver.find_element_by_xpath('//*[@id="dateFromGames_1"]')
     first_date.send_keys(Keys.CONTROL + "a")
-    first_date.send_keys('01.07.2019')
+    first_date.send_keys('01.07.20'+year_start)
 
     second_date = driver.find_element_by_xpath('//*[@id="dateToGames_1"]')
     second_date.send_keys(Keys.CONTROL + "a")
-    second_date.send_keys('01.05.2020')
+    second_date.send_keys('01.05.20'+year_finish)
 
     click_away = driver.find_element_by_xpath('/html/body/div[3]/div[4]/div/div[2]/div/div/div[2]/div/div[1]/h2')
     click_away.click()
@@ -172,6 +178,7 @@ def get_season(val):
                 if val == element:
                     return season
     return "season not found"
+
 
 if __name__ == '__main__':
     main()

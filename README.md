@@ -10,7 +10,7 @@ scraperPlayerProgress scrapes statistics of each individual game (liveticker-sta
 At this point, only the performance-oriented teams of <a href="https://wackerthun.ch/de/" target="blank">Wacker Thun</a> are analyzed, however through adjustment of options.py, any team playing under the <a href="https://www.handball.ch/de/matchcenter/" target="blank">Swiss Handball Federation</a> may be analyzed.
 
 
-![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/progress_plots/30644/%25_goalies.png "Example Statistic")
+![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/progress_plots/Wacker Thun NLA/Saison 19_20/30644/%25_goalies.png "Example of Multivariate Time Series Plot")
 ![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/U15_Elite_201920_meanGoalsPerPlayerPerTeamPerGame.png "Example Statistic")
 
 
