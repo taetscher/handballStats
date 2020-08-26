@@ -14,10 +14,10 @@ def main():
     # run firefox webdriver from executable path of your choice
     driver = webdriver.Firefox(
         #on pc
-        #executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
+        executable_path=r'C:\Users\Benjamin Schüpbach\Desktop\Coding\geckodriver-v0.27.0-win64\geckodriver.exe')
 
         #on mac
-        executable_path = r'/Users/benischuepbach/Desktop/Coding/sources/geckodriver')
+        #executable_path = r'/Users/benischuepbach/Desktop/Coding/sources/geckodriver')
 
     for value in teams_seasons.values():
         teams.extend(value)
@@ -30,7 +30,7 @@ def main():
             os.makedirs(f'output_png/progress_plots/{team}',exist_ok=False)
             os.makedirs(f'output_csv/progress_data/{team}', exist_ok=False)
         except OSError:
-            print('directories for team {} already exist, skipping...'.format(team))
+            print(f'directories for team {team} already exist, skipping...')
 
     for team in teams:
         team_name, games = findGamesPage(driver, team)
@@ -152,6 +152,24 @@ def writer(game_stats,game,date,team, league):
             writeR.writerow(element)
 
         outfile.close()
+
+def get_team(val):
+    """returns the key to a value in a dictionary within the options.py dictionary"""
+    for entry in teams_seasons.items():
+        for season, number in entry[1].items():
+            for element in number:
+                if eval(val) == element:
+                    return entry[0]
+    return "season not found"
+
+def get_season(val):
+    """returns the season of a value in a dictionary within the options.py dictionary"""
+    for entry in teams_seasons.items():
+        for season, number in entry[1].items():
+            for element in number:
+                if eval(val) == element:
+                    return season
+    return "season not found"
 
 if __name__ == '__main__':
     main()

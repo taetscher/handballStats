@@ -246,7 +246,7 @@ def mergeStatsGoalie(games_list,player_list,stat,folder):
 
 def plotOutfield(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
-    print(f'plotting stat {stat} for team {get_key(folder)}')
+    print(f'plotting stat {stat} for team {get_team(folder)}, {get_season(folder)}')
 
 
     fontP = FontProperties()
@@ -255,7 +255,7 @@ def plotOutfield(input_dataframe,stat,folder):
     plt.figure(figsize=(15, 7))
     input_dataframe = input_dataframe.sort_values(by = 'SPIELER')
     output = parallel_coordinates(input_dataframe,'SPIELER', colormap='viridis',zorder=1000)
-    plt.title(f'outfield player, statistic [{stat}], of team {get_key(folder)}')
+    plt.title(f'outfield player, statistic [{stat}], of team {get_team(folder)}, {get_season(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
@@ -272,7 +272,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
     """plots individual entries of multivariate time series and saves .pngs of them"""
 
     for player in player_list:
-        print(f'plotting stat {stat} for player {player}')
+        print(f'plotting stat {stat} for player {player}, {get_season(folder)}')
 
         #set up directory for player
         try:
@@ -288,7 +288,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
         output = parallel_coordinates(input_dataframe.loc[input_dataframe['SPIELER'] == player], 'SPIELER', colormap='viridis_r', zorder=1000)
 
-        plt.title(f'outfield player, statistic [{stat}] of team {get_key(folder)}')
+        plt.title(f'outfield player, statistic [{stat}] of team {get_team(folder)}, {get_season(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
         plt.tight_layout()
@@ -298,7 +298,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, folder):
 
 def plotGoalie(input_dataframe,stat,folder):
     """plots multivariate time series and saves .pngs of them"""
-    print(f'plotting stat {stat} for goalies of team {get_key(folder)}')
+    print(f'plotting stat {stat} for goalies of team {get_team(folder)}, {get_season(folder)}')
 
     fontP = FontProperties()
     fontP.set_size('small')
@@ -306,7 +306,7 @@ def plotGoalie(input_dataframe,stat,folder):
     plt.figure(figsize=(10, 5))
     input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
     output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', zorder=1000)
-    plt.title(f'goalie save{stat} of team {get_key(folder)}')
+    plt.title(f'goalie save{stat} of team {get_team(folder)}, {get_season(folder)}')
     plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
     plt.xticks(rotation=90)
     plt.tight_layout()
@@ -319,7 +319,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
     """plots individual entries of multivariate time series and saves .pngs of them"""
 
     for player in player_list:
-        print(f'plotting stat {stat} for goalie {player}')
+        print(f'plotting stat {stat} for goalie {player}, {get_season(folder)}')
 
         # set up directory for player
         try:
@@ -335,7 +335,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
 
         output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER', colormap='viridis_r', zorder=1000)
 
-        plt.title(f'goalie save{stat} of team {get_key(folder)}')
+        plt.title(f'goalie save{stat} of team {get_team(folder)}, {get_season(folder)}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
         plt.tight_layout()
@@ -346,14 +346,23 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, folder):
 def write(input_dataframe,folder,stat):
     input_dataframe.to_csv(f'output_csv/progress_data/{folder}/{stat}', index=False)
 
-def get_key(val):
-    """returns the key to a value in a dictionary"""
-    for team, numbers in teams_seasons.items():
-        for element in numbers:
-            if eval(val) == element:
-                return team
+def get_team(val):
+    """returns the key to a value in a dictionary within the options.py dictionary"""
+    for entry in teams_seasons.items():
+        for season, number in entry[1].items():
+            for element in number:
+                if eval(val) == element:
+                    return entry[0]
+    return "season not found"
 
-    return "key doesn't exist"
+def get_season(val):
+    """returns the season of a value in a dictionary within the options.py dictionary"""
+    for entry in teams_seasons.items():
+        for season, number in entry[1].items():
+            for element in number:
+                if eval(val) == element:
+                    return season
+    return "season not found"
 
 
 if __name__ == '__main__':
