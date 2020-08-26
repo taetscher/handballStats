@@ -19,18 +19,19 @@ def main():
         #on mac
         #executable_path = r'/Users/benischuepbach/Desktop/Coding/sources/geckodriver')
 
-    for value in teams_seasons.values():
-        teams.extend(value)
+    for season in teams_seasons.values():
+        for id in season.values():
+            teams.extend(id)
 
     # check if output directory already exists, create new one if not
     for team in teams:
         try:
-            print(f'creating new directories for team {team}...')
-            os.makedirs(f"playerProgress_data/{team}/raw_data", exist_ok=False)
-            os.makedirs(f'output_png/progress_plots/{team}',exist_ok=False)
-            os.makedirs(f'output_csv/progress_data/{team}', exist_ok=False)
+            print(f'creating new directories for team {get_team(team)} and season {get_season(team)}...')
+            os.makedirs(f"playerProgress_data/{get_team(team)}/{get_season(team)}/raw_data", exist_ok=False)
+            os.makedirs(f'output_png/progress_plots/{get_team(team)}/{get_season(team)}',exist_ok=False)
+            os.makedirs(f'output_csv/progress_data/{get_team(team)}/{get_season(team)}', exist_ok=False)
         except OSError:
-            print(f'directories for team {team} already exist, skipping...')
+            print(f'directories for team {get_team(team)} and season {get_season(team)} already exist, skipping...')
 
     for team in teams:
         team_name, games = findGamesPage(driver, team)
@@ -39,8 +40,9 @@ def main():
             link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
             game_stats, date, league = scrapeGame(link, team_name, driver)
             writer(game_stats, game, date, team, league)
-            print(date, team, league, game_stats)
+            print(date, team, league)
 
+    print('\n', '-'*10)
     print('scraping successfully terminated, closing firefox...')
     driver.quit()
 
@@ -51,13 +53,13 @@ def findGamesPage(driver,team):
 
     # specify url
     urlpage = 'https://www.handball.ch/de/matchcenter/teams/{}'.format(team)
-    print('scraping... ', urlpage)
+    print('\n\nscraping... ', urlpage)
 
     driver.get(urlpage)
     time.sleep(2)
 
     team_name = driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/div/div[2]/h1').text
-    print('scraping games of team: {}'.format(team_name))
+    print('\nscraping games of team: {}'.format(team_name))
 
     games_button = driver.find_element_by_xpath('//*[@id="games-tab"]')
     games_button.click()
@@ -130,9 +132,9 @@ def scrapeGame(link,team,driver):
 def writer(game_stats,game,date,team, league):
     """helper function. writes statistics of input game-id into csv file"""
 
-    with open('playerProgress_data/{}/raw_data/raw_{}.csv'.format(team,game),'wb') as outfile:
+    with open(f'playerProgress_data/{get_team(team)}/{get_season(team)}/raw_data/raw_{game}.csv','wb') as outfile:
         #write in bytes mode ('wb') to avoid characters being saved wrongly
-        print('\n\nwriting stats for game {}...'.format(game))
+        print(f'\nwriting stats for game {game}...')
         writeR = csv.writer(outfile)
         date = date.split(' ')
         league = league.split(' ')[1:]
@@ -158,7 +160,7 @@ def get_team(val):
     for entry in teams_seasons.items():
         for season, number in entry[1].items():
             for element in number:
-                if eval(val) == element:
+                if val == element:
                     return entry[0]
     return "season not found"
 
@@ -167,7 +169,7 @@ def get_season(val):
     for entry in teams_seasons.items():
         for season, number in entry[1].items():
             for element in number:
-                if eval(val) == element:
+                if val == element:
                     return season
     return "season not found"
 
