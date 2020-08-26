@@ -5,3 +5,6 @@ teams_seasons = {'Wacker Thun U15 Elite':{'Saison 19_20':[30639],'Saison 18_19':
                  'TV Steffisburg NLB':{'Saison 19_20':[31092], 'Saison 18_19':[29304]},
                  'Wacker Thun 1.Liga':{'Saison 19_20':[30370], 'Saison 18_19':[28973]}
                  }
+
+#teams_seasons = {'TV Steffisburg 3': {'Saison 19_20':[31089],'Saison 18_19':[29306]}
+#                 }

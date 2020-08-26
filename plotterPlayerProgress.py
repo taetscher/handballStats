@@ -6,8 +6,9 @@ from matplotlib.font_manager import FontProperties
 import options
 from cycler import cycler
 
-#loading in the options file
 data_dir = 'playerProgress_data'
+
+#loading in the options file
 teams_seasons = options.teams_seasons
 
 #set rc params for matplotlib
@@ -195,7 +196,6 @@ def csvConverter(infile,team_folder,season):
             outfile.close()
     except TypeError:
         print('raw_file has errors, skipping this one...')
-
 
 def cleanUp(inlist):
     return str(inlist).strip("['").strip("']").replace(',',' ')

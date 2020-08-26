@@ -2,7 +2,9 @@
 This repository was created for me to learn about web scraping and git/github flow.
 If you have any comments, ideas for improvement, let me know!
 
-This repository allows you to scrape data from <a href="https://www.handball.ch/de/matchcenter/" target="blank">handball.ch</a>.
+This repository allows you to scrape data from <a href="https://www.handball.ch/de/matchcenter/" target="blank">handball.ch</a>. Please be aware that both of the scrapers in this repository are made to scrape data from games which were recorded using the <a href="https://www.handball.ch/de/matchcenter/liveticker/" target="blank">liveticker</a> feature. Other games cannot be analyzed.
+
+
 scraperPlayerStats.py scrapes overall (league-wide) player statistics of pre-defined groups (corresponding to leagues/years). plotterPlayerStats plots and analyzes some of that data (rudimentary statistics only currently). You can find these analyses within the folder output_png.
 
 scraperPlayerProgress scrapes statistics of each individual game (liveticker-stats). plotterPlayerProgress plots (per stat available) a multivariate time series of each team as well as time series data (progression over the season) of each player of each team. These plots can be found in the corresponding team folder under output_png/progress_plots/{team_name}/{season}.

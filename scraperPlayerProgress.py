@@ -44,9 +44,13 @@ def main():
         for game in games:
             time.sleep(0.1)
             link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
-            game_stats, date, league = scrapeGame(link, team_name, driver)
-            writer(game_stats, game, date, team, league)
-            print(date, team, league)
+            time.sleep(0.1)
+            try:
+                game_stats, date, league = scrapeGame(link, team_name, driver)
+                writer(game_stats, game, date, team, league)
+                print(date, team, league)
+            except TypeError:
+                print(f'error. most likely the game ({game}) you are trying to download does not have stats available\nskipping...')
 
     print('\n', '-'*10)
     print('scraping successfully terminated, closing firefox...')
@@ -132,7 +136,7 @@ def scrapeGame(link,team,driver):
     elif right_team.upper() == team:
         return right_content, date, league
     else:
-        print('\n\nsomething went wrong, shutting down...')
+        print('\n\nsomething went wrong, skipping or shutting down...')
         pass
 
 def writer(game_stats,game,date,team, league):
