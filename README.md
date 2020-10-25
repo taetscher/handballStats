@@ -12,6 +12,7 @@ At this point, only the performance-oriented teams of <a href="https://wackerthu
 
 
 ![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/progress_plots/Wacker%20Thun%20NLA/Saison%2019_20/%25_goalies.png "Example of Multivariate Time Series Plot")
+![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/progress_plots/Wacker%20Thun%20NLA/Saison%2019_20/Wyttenbach%20Ivan/CHANCENAUSWERTUNG.png "Example of Scoring Percentage Statistics")
 ![Example Statistic](https://github.com/taetscher/handballStats/blob/master/output_png/U15_Elite_201920_meanGoalsPerPlayerPerTeamPerGame.png "Example Statistic")
 
 
