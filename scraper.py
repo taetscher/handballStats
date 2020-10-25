@@ -9,7 +9,7 @@ from lib.scraperPlayerStats import *
 #print("\n", "-"*30, "\n", "Plotting Player Stats", "\n", "-"*30, "\n")
 #plotPlayerStats()
 
-#print("\n", "-"*30, "\n", "Scraping Player Progress", "\n", "-"*30, "\n")
+print("\n", "-"*30, "\n", "Scraping Player Progress", "\n", "-"*30, "\n")
 #scrapePlayerProgress()
 
 print("\n", "-"*30, "\n", "Plotting Player Progress", "\n", "-"*30, "\n")

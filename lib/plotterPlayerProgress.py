@@ -84,20 +84,11 @@ def plotPlayerProgress():
                 merged_goalies = mergeStatsGoalie(goalies, goalie_players, stat, team_folder, season)
 
                 # plot time series data of each goalie to see his/her progress over time
-                try:
-                    try:
-                        plotGoalie(merged_goalies, stat,team_folder, season)
-                        plotGoalieIndividuals(goalie_players, merged_goalies, stat,team_folder, season)
-                    except TypeError:
-                        # print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
-                        # 'but then the information would get lost because it would be identical to %-stat')
-                        pass
-                except ValueError:
-                    #print('cannot plot data in x/y format (from goalie P/W & 7M, would need to convert to float. '
-                          #'but then the information would get lost because it would be identical to %-stat')
-                    pass
 
-                write(merged_goalies,team_folder, season, str(stat).replace('/','-')+'_goalie')
+                plotGoalie(merged_goalies, stat, team_folder, season)
+                plotGoalieIndividuals(goalie_players, merged_goalies, stat, team_folder, season)
+
+                write(merged_goalies, team_folder, season, str(stat).replace('/','-')+'_goalie')
 
     print('\n\nplotting complete')
 
@@ -304,8 +295,6 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             labels = labels.values.tolist()[0]
             labels = labels[1:]
 
-            #print(labels)
-
             fractions = input_dataframe
             fractions = fractions.loc[fractions['SPIELER'] == player]
             fractions = fractions.apply(lambda x: convertAttempts(x))
@@ -313,9 +302,6 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             frac_range = range(0,len(fractions.columns))
             frac_list = fractions.values.tolist()[0]
             frac_list = frac_list[1:]
-            print(frac_list)
-
-            #print(fractions)
 
             # plotting stuff
             fontP = FontProperties()
@@ -327,6 +313,8 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             plt.title(f'outfield player, statistic [CHANCENAUSWERTUNG] of team {team_folder}, {season}')
             plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
             plt.xticks(ticks=frac_range, rotation=90)
+            plt.ylabel('Scoring Percentage')
+            plt.xlim(0,len(frac_list)-1)
             plt.tight_layout()
 
             for n in range(0, len(labels)):
@@ -356,22 +344,25 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
 
 def plotGoalie(input_dataframe,stat,team_folder,season):
     """plots multivariate time series and saves .pngs of them"""
-    print(f'plotting stat {stat} for goalies of team {team_folder}, {season}')
+    if stat == 'P/W' or stat == '7M':
+        pass
+    else:
+        print(f'plotting stat {stat} for goalies of team {team_folder}, {season}')
 
-    fontP = FontProperties()
-    fontP.set_size('small')
+        fontP = FontProperties()
+        fontP.set_size('small')
 
-    plt.figure(figsize=(10, 5))
-    input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
-    output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', zorder=1000)
-    plt.title(f'goalie save{stat} of team {team_folder}, {season}')
-    plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
-    plt.xticks(rotation=90)
-    plt.tight_layout()
+        plt.figure(figsize=(10, 5))
+        input_dataframe = input_dataframe.sort_values(by='TORHÜTER')
+        output = parallel_coordinates(input_dataframe, 'TORHÜTER', colormap='viridis', zorder=1000)
+        plt.title(f'goalie save{stat} of team {team_folder}, {season}')
+        plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+        plt.xticks(rotation=90)
+        plt.tight_layout()
 
-    plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}_goalies')
-    print('saving goalie stats...')
-    plt.close()
+        plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}_goalies')
+        print('saving goalie stats...')
+        plt.close()
 
 def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, season):
     """plots individual entries of multivariate time series and saves .pngs of them"""
@@ -385,21 +376,64 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
         except FileExistsError:
             pass
 
-        # plotting stuff
-        fontP = FontProperties()
-        fontP.set_size('small')
 
-        plt.figure(figsize=(10, 7))
+        if stat == 'P/W':
+            labels = input_dataframe
+            labels = labels.loc[labels['TORHÜTER'] == player]
+            #labels = labels.loc[:, labels.columns != 'SPIELER']
+            labels = labels.values.tolist()[0]
+            labels = labels[1:]
 
-        output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER', colormap='viridis_r', zorder=1000)
+            fractions = input_dataframe
+            fractions = fractions.loc[fractions['TORHÜTER'] == player]
+            fractions = fractions.apply(lambda x: convertAttempts(x))
+            fractions.replace('0', float(0), inplace=True)
+            frac_range = range(0,len(fractions.columns))
+            frac_list = fractions.values.tolist()[0]
+            frac_list = frac_list[1:]
 
-        plt.title(f'goalie save{stat} of team {team_folder}, {season}')
-        plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
-        plt.xticks(rotation=90)
-        plt.tight_layout()
+            # plotting stuff
+            fontP = FontProperties()
+            fontP.set_size('small')
 
-        plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/{stat}_goalie')
-        plt.close()
+            plt.figure(figsize=(10, 7))
+            output = parallel_coordinates(fractions, 'TORHÜTER', colormap='viridis_r', zorder=1000)
+
+            plt.title(f'goalie statistic [Saves/Attempts] of team {team_folder}, {season}')
+            plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+            plt.xticks(ticks=frac_range, rotation=90)
+            plt.ylabel('Save Percentage')
+            plt.xlim(0,len(frac_list)-1)
+            plt.tight_layout()
+
+            for n in range(0, len(labels)):
+                plt.annotate(labels[n], (n, frac_list[n]),
+                             fontsize = 7)
+
+
+            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/P_W')
+            plt.close()
+
+        elif stat == '7M':
+            pass
+
+        else:
+            # plotting stuff
+            fontP = FontProperties()
+            fontP.set_size('small')
+
+            plt.figure(figsize=(10, 7))
+
+            output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER',
+                                          colormap='viridis_r', zorder=1000)
+
+            plt.title(f'goalie save{stat} of team {team_folder}, {season}')
+            plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
+            plt.xticks(rotation=90)
+            plt.tight_layout()
+
+            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/{stat}_goalie')
+            plt.close()
 
 def write(input_dataframe,team_folder,season,stat):
     input_dataframe.to_csv(f'output_csv/progress_data/{team_folder}/{season}/{stat}', index=False)
