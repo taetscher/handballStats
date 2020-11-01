@@ -60,13 +60,14 @@ def plotPlayerProgress():
                     outfield_players.append(player)
             outfield_players = set(outfield_players)
 
-            stats = ['TORE','%', 'TF', 'V', "2'", 'D']
+            stats = ['TORE', '7M', '%', 'TF', 'V', "2'", 'D']
 
             for stat in stats:
                 merged_outfield = mergeStatsOutfield(outfield,outfield_players,stat,team_folder,season)
 
                 #plot time series data of each outfield player to see his/her progress over time
-                plotOutfield(merged_outfield,stat,team_folder,season)
+                if stat != '7M':
+                    plotOutfield(merged_outfield, stat, team_folder, season)
                 plotOutfieldIndividuals(outfield_players,merged_outfield,stat,team_folder,season)
                 write(merged_outfield,team_folder,season,stat)
 
@@ -266,6 +267,8 @@ def plotOutfield(input_dataframe,stat,team_folder,season):
         plt.title(f'outfield player, statistic [{stat}], of team {team_folder}, {season}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
+        plt.ylabel(f'{stat}')
+        plt.xlabel('Matches [Dates]')
         plt.tight_layout()
 
         if stat == '%':
@@ -288,7 +291,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
         except FileExistsError:
             pass
 
-        if stat == 'TORE':
+        if stat == 'TORE' or stat == '7M':
             labels = input_dataframe
             labels = labels.loc[labels['SPIELER'] == player]
             #labels = labels.loc[:, labels.columns != 'SPIELER']
@@ -298,7 +301,10 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             fractions = input_dataframe
             fractions = fractions.loc[fractions['SPIELER'] == player]
             fractions = fractions.apply(lambda x: convertAttempts(x))
-            fractions.replace('0', float(0), inplace=True)
+            if stat == 'TORE':
+                fractions.replace('0', float(0), inplace=True)
+            else:
+                fractions.replace('0', float('NaN'), inplace=True)
             frac_range = range(0,len(fractions.columns))
             frac_list = fractions.values.tolist()[0]
             frac_list = frac_list[1:]
@@ -310,19 +316,36 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             plt.figure(figsize=(10, 7))
             output = parallel_coordinates(fractions, 'SPIELER', colormap='viridis_r', zorder=1000)
 
-            plt.title(f'outfield player, statistic [CHANCENAUSWERTUNG] of team {team_folder}, {season}')
+            if stat == 'TORE':
+                plt.title(f'outfield player, statistic [Goals/Attempts] of team {team_folder}, {season}')
+            else:
+                plt.title(f'outfield player, statistic [Penalty Goals/Attempts] of team {team_folder}, {season}')
             plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
             plt.xticks(ticks=frac_range, rotation=90)
-            plt.ylabel('Scoring Percentage')
+            plt.ylabel(f'{stat}')
+            plt.xlabel('Matches [Dates]')
             plt.xlim(0,len(frac_list)-1)
             plt.tight_layout()
 
+            #get y axis limits
+            axes = plt.gca()
+            y_min, y_max = axes.get_ylim()
+            yaxis_range = y_max-y_min
+
+            bbox_props = dict(boxstyle="round", color='yellow',  lw=1, alpha=1)
             for n in range(0, len(labels)):
-                plt.annotate(labels[n], (n, frac_list[n]), textcoords='offset points')
+                annotation = plt.annotate(labels[n], (n, frac_list[n]+(yaxis_range/40)), fontsize=7, color='black', bbox=bbox_props)
+                annotation.set_zorder(2000)
 
 
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/CHANCENAUSWERTUNG')
+            if stat == 'TORE':
+                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/CHANCENAUSWERTUNG')
+            else:
+                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/pen_CHANCENAUSWERTUNG')
             plt.close()
+
+        elif stat == '%':
+            pass
 
         else:
             # plotting stuff
@@ -358,6 +381,8 @@ def plotGoalie(input_dataframe,stat,team_folder,season):
         plt.title(f'goalie save{stat} of team {team_folder}, {season}')
         plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
         plt.xticks(rotation=90)
+        plt.ylabel(f'{stat}')
+        plt.xlabel('Matches [Dates]')
         plt.tight_layout()
 
         plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}_goalies')
@@ -377,7 +402,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
             pass
 
 
-        if stat == 'P/W':
+        if stat == 'P/W' or stat == '7M':
             labels = input_dataframe
             labels = labels.loc[labels['TORHÜTER'] == player]
             #labels = labels.loc[:, labels.columns != 'SPIELER']
@@ -399,41 +424,37 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
             plt.figure(figsize=(10, 7))
             output = parallel_coordinates(fractions, 'TORHÜTER', colormap='viridis_r', zorder=1000)
 
-            plt.title(f'goalie statistic [Saves/Attempts] of team {team_folder}, {season}')
+            if stat == 'P/W':
+                plt.title(f'goalie statistic [Saves/Attempts] of team {team_folder}, {season}')
+            else:
+                plt.title(f'goalie statistic [Penalty Saves/Attempts] of team {team_folder}, {season}')
             plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
             plt.xticks(ticks=frac_range, rotation=90)
-            plt.ylabel('Save Percentage')
+            plt.ylabel(f'{stat}')
+            plt.xlabel('Matches [Dates]')
             plt.xlim(0,len(frac_list)-1)
             plt.tight_layout()
 
+            #get y axis limits
+            axes = plt.gca()
+            y_min, y_max = axes.get_ylim()
+            yaxis_range = y_max - y_min
+
+            bbox_props = dict(boxstyle="round", color='yellow', lw=1, alpha=1)
             for n in range(0, len(labels)):
-                plt.annotate(labels[n], (n, frac_list[n]),
-                             fontsize = 7)
+                annotation = plt.annotate(labels[n], (n, frac_list[n]+(yaxis_range/40)), fontsize=7, color='black',
+                                          bbox=bbox_props)
+                annotation.set_zorder(2000)
 
 
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/P_W')
+            if stat == 'P/W':
+                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/P_W')
+            else:
+                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/pen_P_W')
             plt.close()
 
-        elif stat == '7M':
+        elif stat == '%':
             pass
-
-        else:
-            # plotting stuff
-            fontP = FontProperties()
-            fontP.set_size('small')
-
-            plt.figure(figsize=(10, 7))
-
-            output = parallel_coordinates(input_dataframe.loc[input_dataframe['TORHÜTER'] == player], 'TORHÜTER',
-                                          colormap='viridis_r', zorder=1000)
-
-            plt.title(f'goalie save{stat} of team {team_folder}, {season}')
-            plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
-            plt.xticks(rotation=90)
-            plt.tight_layout()
-
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/{stat}_goalie')
-            plt.close()
 
 def write(input_dataframe,team_folder,season,stat):
     input_dataframe.to_csv(f'output_csv/progress_data/{team_folder}/{season}/{stat}', index=False)
