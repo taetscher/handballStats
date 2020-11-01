@@ -318,11 +318,12 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
 
             if stat == 'TORE':
                 plt.title(f'outfield player, statistic [Goals/Attempts] of team {team_folder}, {season}')
+                plt.ylabel('Scoring Percentage')
             else:
                 plt.title(f'outfield player, statistic [Penalty Goals/Attempts] of team {team_folder}, {season}')
+                plt.ylabel('Penalty Efficiency [%]')
             plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
             plt.xticks(ticks=frac_range, rotation=90)
-            plt.ylabel(f'{stat}')
             plt.xlabel('Matches [Dates]')
             plt.xlim(0,len(frac_list)-1)
             plt.tight_layout()
@@ -426,11 +427,12 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
 
             if stat == 'P/W':
                 plt.title(f'goalie statistic [Saves/Attempts] of team {team_folder}, {season}')
+                plt.ylabel('Save Percentage')
             else:
                 plt.title(f'goalie statistic [Penalty Saves/Attempts] of team {team_folder}, {season}')
+                plt.ylabel('Penalty Save Percentage')
             plt.legend(title='Player Name', bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
             plt.xticks(ticks=frac_range, rotation=90)
-            plt.ylabel(f'{stat}')
             plt.xlabel('Matches [Dates]')
             plt.xlim(0,len(frac_list)-1)
             plt.tight_layout()
