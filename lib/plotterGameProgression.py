@@ -159,7 +159,7 @@ def plotDF(mode, df, team_folder, season, home, away, date):
         gridlines[4].set_alpha(0.3)
         plt.ylabel('Goal Differential')
         plt.xlabel('Game Time [min]')
-        plt.title(f'Goal Differential over Time:\n All Games of {season}')
+        plt.title(f'Goal Differential over Time:\n All Games of {team_folder}, {season}')
 
         handles, labels = ax.get_legend_handles_labels()
         handle_list, label_list = [], []
