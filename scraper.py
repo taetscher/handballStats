@@ -21,4 +21,4 @@ print("\n", "-"*30, "\n", "Scraping Game Progression", "\n", "-"*30, "\n")
 scrapeGameProgression()
 
 print("\n", "-"*30, "\n", "Plotting Game Progression", "\n", "-"*30, "\n")
-#plot spielverlauf
+plotGameProgressions()

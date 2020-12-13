@@ -14,7 +14,7 @@ teams_seasons = options.teams_seasons
 #set rc params for matplotlib
 plt.style.use('dark_background')
 plt.rc('lines', linewidth=1)
-plt.rc('lines', markersize=8)
+plt.rc('lines', markersize=6)
 plt.rc('axes', prop_cycle=(cycler('marker', ['.','*','+','x']))+ cycler('linestyle', ['-', ':', '--','-.']), axisbelow=True)
 
 
@@ -29,11 +29,18 @@ def plotGameProgressions():
             print(f'\n\nPlotting game progressions for team {team_folder}, season {season}')
             games = os.listdir(f'{data_dir}/{team_folder}/{season}')
 
+            plt.close('all')
             for game in games:
                 df, home, away, date = convert_stats(data_dir, team_folder, season, game)
-                print(df.head(50))
+                plotDF(0, df, team_folder, season,home, away, date)
+                print('..')
 
-                plotDF(df, team_folder, season,home, away, date)
+            plt.close('all')
+            for game in games:
+                df, home, away, date = convert_stats(data_dir, team_folder, season, game)
+                plotDF(1, df, team_folder, season,home, away, date)
+                print('..')
+
 
 
 
@@ -78,6 +85,11 @@ def convert_stats(data_dir, team_folder, season, game):
         # calculate new columns
         df['GDoT'] = df['score'].apply(lambda x: convert_score(x, homeAway))
         df['time'] = df['timestamp'].apply(lambda t: convert_time(t))
+        df['Rolling'] = df['GDoT'].rolling(10).mean()
+
+        df['cum_sum'] = df['GDoT'].cumsum()
+        df['count'] = range(1, len(df['GDoT']) + 1)
+        df['Moving Average'] = df['cum_sum'] / df['count']
 
         return df, home, away, date
 
@@ -108,7 +120,7 @@ def convert_time(t):
         return t
 
 
-def plotDF(df, team_folder, season, home, away, date):
+def plotDF(mode, df, team_folder, season, home, away, date):
 
     league = team_folder.split(' ')[-1]
     d = date.split("_")
@@ -118,18 +130,49 @@ def plotDF(df, team_folder, season, home, away, date):
     fontP = FontProperties()
     fontP.set_size('small')
 
-    plot = df.plot.area(x = 'time', y = 'GDoT', stacked=False, colormap='viridis_r', zorder=1000)
-    plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
-    gridlines = plot.xaxis.get_gridlines()
-    gridlines[4].set_linewidth(2)
-    gridlines[4].set_alpha(0.3)
-    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', prop=fontP)
-    plt.title(f'Goal Differential over Time:\n {date} {home} vs. {away} ({league})')
-    plt.ylabel('Goal Differential')
-    plt.xlabel('Game Time [min]')
-    plt.tight_layout()
+    #to plot multiple lines in the same plot, re-use the ax object
+    ax = plt.gca()
 
-    plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
+    if mode == 0:
+        plot1 = df.plot.area(x='time', y='GDoT', stacked=False, colormap='viridis_r', zorder=1000, ax=ax)
+        plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=0.8, marker='',
+                             color='orange', zorder=1001, ax=ax)
+        plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
+        gridlines = plot1.xaxis.get_gridlines()
+        gridlines[4].set_linewidth(2)
+        gridlines[4].set_alpha(0.3)
+        plt.ylabel('Goal Differential')
+        plt.xlabel('Game Time [min]')
+        plt.title(f'Goal Differential over Time:\n {date} {home} vs. {away} ({league})')
+        plt.legend(loc='lower center', prop=fontP, facecolor='black', framealpha=0.8).set_zorder(1010)
+        plt.tight_layout()
+        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
+        plt.close()
+
+    else:
+        plot1 = df.plot.area(x='time', y='GDoT', stacked=False, colormap='viridis_r', zorder=1000, ax=ax, alpha=0.1)
+        plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=0.8, marker='',
+                             color='orange', zorder=1001, ax=ax)
+        plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
+        gridlines = plot1.xaxis.get_gridlines()
+        gridlines[4].set_linewidth(2)
+        gridlines[4].set_alpha(0.3)
+        plt.ylabel('Goal Differential')
+        plt.xlabel('Game Time [min]')
+        plt.title(f'Goal Differential over Time:\n All Games of {season}')
+
+        handles, labels = ax.get_legend_handles_labels()
+        handle_list, label_list = [], []
+        for handle, label in zip(handles, labels):
+            if label not in label_list:
+                handle_list.append(handle)
+                label_list.append(label)
+        plt.legend(handle_list, label_list, loc='lower center', prop=fontP, facecolor='black', framealpha=0.8).set_zorder(1010)
+
+        ax.set_ylim(-15,15)
+        plt.tight_layout()
+        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
+
 
 if __name__ == '__main__':
     plotGameProgressions()

@@ -22,8 +22,9 @@ def scrapeGameProgression():
     for team in teams:
         try:
             print(f'creating new directories for team {get_team(team)} and season {get_season(team)}...')
-            os.makedirs(f'../output_png/gameProgressions/{get_team(team)}/{get_season(team)}', exist_ok=False)
             os.makedirs(f'../output_csv/gameProgressions/{get_team(team)}/{get_season(team)}', exist_ok=False)
+            os.makedirs(f'../output_png/gameProgressions/{get_team(team)}/{get_season(team)}', exist_ok=False)
+
         except OSError:
             print(f'directories for team {get_team(team)} and season {get_season(team)} already exist, skipping...\n')
 
@@ -88,7 +89,7 @@ def writeProgression(progression, team, season, date):
     time_score = list(divide_chunks(time_score, 2))
 
     try:
-        with open(f'../output_csv/gameProgressions/{get_team(team)}/{season}/{date}_{team_home}_{team_away}.csv',
+        with open(f'../output_csv/gameProgressions/{get_team(team)}/{season}/{date}_{team_home.replace(".", "")}_{team_away.replace(".", "")}.csv',
                   'wb') as outfile:
             writer = csv.writer(outfile)
             writer.writerow(['timestamp', 'score'])
