@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import options
 from cycler import cycler
+import random
+import statistics
 
 data_dir = '../output_csv/gameProgressions'
 
@@ -15,7 +17,8 @@ teams_seasons = options.teams_seasons
 plt.style.use('dark_background')
 plt.rc('lines', linewidth=1)
 plt.rc('lines', markersize=6)
-plt.rc('axes', prop_cycle=(cycler('marker', ['.','*','+','x']))+ cycler('linestyle', ['-', ':', '--','-.']), axisbelow=True)
+plt.rc('axes', prop_cycle=(cycler('marker', ['.']))+ cycler('linestyle', ['-']), axisbelow=True)
+
 
 
 def plotGameProgressions():
@@ -138,9 +141,8 @@ def plotDF(mode, df, team_folder, season, home, away, date):
         plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=0.8, marker='',
                              color='orange', zorder=1001, ax=ax)
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
-        gridlines = plot1.xaxis.get_gridlines()
-        gridlines[4].set_linewidth(2)
-        gridlines[4].set_alpha(0.3)
+        ax.axvline(30, color='white', alpha=0.3, linewidth=2)
+        ax.axhline(0, color='white', alpha=0.3, linewidth=2)
         plt.ylabel('Goal Differential')
         plt.xlabel('Game Time [min]')
         plt.title(f'Goal Differential over Time:\n {date} {home} vs. {away} ({league})')
@@ -150,13 +152,13 @@ def plotDF(mode, df, team_folder, season, home, away, date):
         plt.close()
 
     else:
-        plot1 = df.plot.area(x='time', y='GDoT', stacked=False, colormap='viridis_r', zorder=1000, ax=ax, alpha=0.1)
-        plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=0.8, marker='',
-                             color='orange', zorder=1001, ax=ax)
+        r_col = r_color()
+        plot1 = df.plot.area(x='time', y='GDoT', stacked=False, color=r_col, zorder=1000, ax=ax, alpha=0.15)
+        plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=1, marker='',
+                             color=r_col, alpha=0.8, zorder=1001, ax=ax)
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
-        gridlines = plot1.xaxis.get_gridlines()
-        gridlines[4].set_linewidth(2)
-        gridlines[4].set_alpha(0.3)
+        ax.axvline(30, color='white', alpha=0.3, linewidth=2)
+        ax.axhline(0, color='white', alpha=0.3, linewidth=2)
         plt.ylabel('Goal Differential')
         plt.xlabel('Game Time [min]')
         plt.title(f'Goal Differential over Time:\n All Games of {team_folder}, {season}')
@@ -173,6 +175,10 @@ def plotDF(mode, df, team_folder, season, home, away, date):
         plt.tight_layout()
         plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
 
+
+def r_color():
+    r = lambda: random.randint(0, 255)
+    return '#%02X%02X%02X' % (r(),r(),r())
 
 if __name__ == '__main__':
     plotGameProgressions()
