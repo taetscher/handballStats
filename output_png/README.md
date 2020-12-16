@@ -17,7 +17,7 @@ Let's look at an example:
 
 Here you can see a game from the U15 league. The graphs in this folder show a game's goal differential over time, representing a team's performance (drops/increases) over the course of a game. For each season there is also a plot representing analysis of a team's performance over the course of a whole season.
 
-![Example gameProgression](https://github.com/taetscher/handballStats/blob/master/output_png/gameProgressions/Wacker%20Thun%20U15%20Elite/Saison%2019_20/20-01-26_SG%20LakeSide%20Wacker-Steffisburg_HSG%20Nordwest_goalDifferential.png "Example of Goal Differential over Time Analysis")
+![Example gameProgression](https://github.com/taetscher/handballStats/blob/master/output_png/gameProgressions/Wacker%20Thun%20NLA/Saison%2017_18/All_Games_goalDifferential.png?raw=true "Example of Goal Differential over Time Analysis")
 
 These graphs look like the one above. The median performance of a team is calculated by taking the median of all moving average values at each minute of a game.
 This is supposed to be an indicator for a team's consistency: 
