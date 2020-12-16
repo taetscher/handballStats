@@ -3,8 +3,8 @@ MU15E
 SG,LakeSide,Wacker-Steffisburg
 SPIELER,TORE,7M,%,TF,V,2',D
 1,Leuenberger,Timon,0,0,,,0,0,0
-3,van,den,Nobelen,Robin,Till,1/1,0,100,,0,0,0
-4,Lädrach,Gregory,Levin,2/5,0,40,2,1,1,0
+3,van,den,Nobelen,Robin,1/1,0,100,,0,0,0
+4,Lädrach,Gregory,2/5,0,40,2,1,1,0
 5,Baumann,Joshua,10/11,2/2,90,2,0,0,0
 6,Karlen,Jean-Baptiste,5/5,0,100,6,1,0,0
 8,Rudin,Sebastian,3/6,0,50,2,0,0,0
@@ -12,7 +12,7 @@ SPIELER,TORE,7M,%,TF,V,2',D
 12,Zilic,Marko,0,0,,,0,0,0
 13,Roth,Dominik,1/2,0,50,,1,1,0
 15,Frischknecht,Lasse,3/4,0,75,,0,0,0
-18,Aebi,Fabian,Timon,1/2,0,50,1,0,0,0
+18,Aebi,Fabian,1/2,0,50,1,0,0,0
 21,Rusch,David,4/4,0,100,,0,0,0
 22,Marthaler,Ivan,1/2,0,50,,0,0,0
 ""

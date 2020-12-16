@@ -3,10 +3,10 @@ MU19E
 SG,LakeSide,Wacker-Steffisburg
 SPIELER,TORE,7M,%,TF,V,2',D
 0,Fassmann,Cyril,0,0,,,0,0,0
-0,Hug,Sascha,Marius,2,0,,,0,0,0
+0,Hug,Sascha,2,0,,,0,0,0
 0,Neuenschwander,Dominic,0,0,,,0,0,0
 0,Stettler,Jan,1,0,,,0,0,0
-0,Stettler,Nils,Jonathan,0,0,,,0,0,0
+0,Stettler,Nils,0,0,,,0,0,0
 3,Antonietti,Claudio,0,0,,,1,0,0
 4,Meier,Joris,5/6,0,83,,1,1,0
 7,Schwab,Yannick,4/4,0,100,,0,0,0
@@ -14,8 +14,8 @@ SPIELER,TORE,7M,%,TF,V,2',D
 15,Stettler,Tim,0/4,0,0,,0,0,0
 16,Zuege,Tim,0,0,,,0,0,0
 18,Kiener,Lars,0/2,0,0,,0,0,0
-20,Ruef,Mauro,Lars,3/4,0,75,,0,0,0
-21,Lindner,Jorden,Marc,6/9,1/1,66,,1,1,0
+20,Ruef,Mauro,3/4,0,75,,0,0,0
+21,Lindner,Jorden,6/9,1/1,66,,1,1,0
 ""
 TORHÜTER,P/W,7M,%
 12,Kocher,Roman,7/22,1/2,32

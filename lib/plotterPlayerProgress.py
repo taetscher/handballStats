@@ -6,20 +6,21 @@ from matplotlib.font_manager import FontProperties
 import options
 from cycler import cycler
 
-data_dir = 'playerProgress_data'
+data_dir = '././playerProgress_data'
 
-#loading in the options file
+# loading in the options file
 teams_seasons = options.teams_seasons
 
-#set rc params for matplotlib
-plt.style.use('dark_background')
-plt.rc('lines', linewidth=1)
-plt.rc('lines', markersize=8)
-plt.rc('axes', prop_cycle=(cycler('marker', ['.','*','+','x']))+ cycler('linestyle', ['-', ':', '--','-.']), axisbelow=True)
-plt.rc('grid', c='white', ls=':', lw=0.4)
-
-
 def plotPlayerProgress():
+
+    # set rc params for matplotlib
+    plt.style.use('dark_background')
+    plt.rc('lines', linewidth=1)
+    plt.rc('lines', markersize=8)
+    plt.rc('axes', prop_cycle=(cycler('marker', ['.', '*', '+', 'x'])) + cycler('linestyle', ['-', ':', '--', '-.']),
+           axisbelow=True)
+    plt.rc('grid', c='white', ls=':', lw=0.4)
+
     team_folders = os.listdir(data_dir)
 
     for team_folder in team_folders:
@@ -63,13 +64,17 @@ def plotPlayerProgress():
             stats = ['TORE', '7M', '%', 'TF', 'V', "2'", 'D']
 
             for stat in stats:
-                merged_outfield = mergeStatsOutfield(outfield,outfield_players,stat,team_folder,season)
+                try:
+                    merged_outfield = mergeStatsOutfield(outfield,outfield_players,stat,team_folder,season)
 
-                #plot time series data of each outfield player to see his/her progress over time
-                if stat != '7M':
-                    plotOutfield(merged_outfield, stat, team_folder, season)
-                plotOutfieldIndividuals(outfield_players,merged_outfield,stat,team_folder,season)
-                write(merged_outfield,team_folder,season,stat)
+                    #plot time series data of each outfield player to see his/her progress over time
+                    if stat != '7M':
+                        plotOutfield(merged_outfield, stat, team_folder, season)
+                    plotOutfieldIndividuals(outfield_players,merged_outfield,stat,team_folder,season)
+                    write(merged_outfield,team_folder,season,stat)
+
+                except Exception as e:
+                    print(e)
 
             # second, generate a list of all goalies who have played over the course of the whole season
             goalie_players = []
@@ -82,14 +87,18 @@ def plotPlayerProgress():
             stats = ['P/W','7M','%']
 
             for stat in stats:
-                merged_goalies = mergeStatsGoalie(goalies, goalie_players, stat, team_folder, season)
+                try:
+                    merged_goalies = mergeStatsGoalie(goalies, goalie_players, stat, team_folder, season)
 
-                # plot time series data of each goalie to see his/her progress over time
+                    # plot time series data of each goalie to see his/her progress over time
 
-                plotGoalie(merged_goalies, stat, team_folder, season)
-                plotGoalieIndividuals(goalie_players, merged_goalies, stat, team_folder, season)
+                    plotGoalie(merged_goalies, stat, team_folder, season)
+                    plotGoalieIndividuals(goalie_players, merged_goalies, stat, team_folder, season)
 
-                write(merged_goalies, team_folder, season, str(stat).replace('/','-')+'_goalie')
+                    write(merged_goalies, team_folder, season, str(stat).replace('/','-')+'_goalie')
+
+                except Exception as e:
+                    print(e)
 
     print('\n\nplotting complete')
 
@@ -273,9 +282,9 @@ def plotOutfield(input_dataframe,stat,team_folder,season):
 
         if stat == '%':
             # save all players scoring % at higher dpi for better zoomability
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}', dpi=300)
+            plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{stat}', dpi=300)
         else:
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}')
+            plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{stat}')
 
         plt.close()
 
@@ -287,7 +296,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
 
         #set up directory for player
         try:
-            os.makedirs(f'output_png/progress_plots/{team_folder}/{season}/{player}', exist_ok=False)
+            os.makedirs(f'././output_png/progress_plots/{team_folder}/{season}/{player}', exist_ok=False)
         except FileExistsError:
             pass
 
@@ -340,9 +349,9 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
 
 
             if stat == 'TORE':
-                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/CHANCENAUSWERTUNG')
+                plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{player}/CHANCENAUSWERTUNG')
             else:
-                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/pen_CHANCENAUSWERTUNG')
+                plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{player}/pen_CHANCENAUSWERTUNG')
             plt.close()
 
         elif stat == '%':
@@ -363,7 +372,7 @@ def plotOutfieldIndividuals(player_list, input_dataframe, stat, team_folder, sea
             plt.xticks(rotation=90)
             plt.tight_layout()
 
-            plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/{stat}')
+            plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{player}/{stat}')
             plt.close()
 
 def plotGoalie(input_dataframe,stat,team_folder,season):
@@ -386,7 +395,7 @@ def plotGoalie(input_dataframe,stat,team_folder,season):
         plt.xlabel('Matches [Dates]')
         plt.tight_layout()
 
-        plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{stat}_goalies')
+        plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{stat}_goalies')
         print('saving goalie stats...')
         plt.close()
 
@@ -398,7 +407,7 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
 
         # set up directory for player
         try:
-            os.makedirs(f'output_png/progress_plots/{team_folder}/{season}/{player}', exist_ok=False)
+            os.makedirs(f'././output_png/progress_plots/{team_folder}/{season}/{player}', exist_ok=False)
         except FileExistsError:
             pass
 
@@ -450,16 +459,16 @@ def plotGoalieIndividuals(player_list, input_dataframe, stat, team_folder, seaso
 
 
             if stat == 'P/W':
-                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/P_W')
+                plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{player}/P_W')
             else:
-                plt.savefig(f'output_png/progress_plots/{team_folder}/{season}/{player}/pen_P_W')
+                plt.savefig(f'././output_png/progress_plots/{team_folder}/{season}/{player}/pen_P_W')
             plt.close()
 
         elif stat == '%':
             pass
 
 def write(input_dataframe,team_folder,season,stat):
-    input_dataframe.to_csv(f'output_csv/progress_data/{team_folder}/{season}/{stat}', index=False)
+    input_dataframe.to_csv(f'././output_csv/progress_data/{team_folder}/{season}/{stat}', index=False)
 
 def get_team(val):
     """returns the key to a value in a dictionary within the options.py dictionary"""

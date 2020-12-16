@@ -42,9 +42,9 @@ def scrapePlayerProgress():
         team_name, games = findGamesPage(driver, team,year_start,year_finish)
 
         for game in games:
-            time.sleep(0.1)
+            time.sleep(0.5)
             link = 'https://www.handball.ch/de/matchcenter/spiele/{}'.format(game)
-            time.sleep(0.1)
+            time.sleep(0.5)
             try:
                 game_stats, date, league = scrapeGame(link, team_name, driver)
                 writer(game_stats, game, date, team, league)
@@ -66,7 +66,7 @@ def findGamesPage(driver,team,year_start,year_finish):
     print('\n\nscraping... ', urlpage)
 
     driver.get(urlpage)
-    time.sleep(2)
+    time.sleep(1)
 
     team_name = driver.find_element_by_xpath('/html/body/div[3]/div[3]/div/div/div[2]/div/div[2]/h1').text
     print(f'\nscraping games of team: {team_name}, season {year_start}/{year_finish}')
@@ -74,7 +74,7 @@ def findGamesPage(driver,team,year_start,year_finish):
     games_button = driver.find_element_by_xpath('//*[@id="games-tab"]')
     games_button.click()
 
-    time.sleep(0.5)
+    time.sleep(1)
     first_date = driver.find_element_by_xpath('//*[@id="dateFromGames_1"]')
     first_date.send_keys(Keys.CONTROL + "a")
     first_date.send_keys('01.07.20'+year_start)
@@ -92,7 +92,7 @@ def findGamesPage(driver,team,year_start,year_finish):
 def getAllGames(driver):
     """helper function, retrieves and cleans up a list of all games played by specified team"""
     games = []
-    time.sleep(2)
+    time.sleep(1)
     table_rows = driver.find_elements_by_tag_name('tr')
     for row in table_rows:
         games.append(row.get_attribute('id'))
@@ -108,21 +108,21 @@ def scrapeGame(link,team,driver):
     returns only statistics for specified team and input game"""
 
     driver.get(link)
-    time.sleep(0.5)
+    time.sleep(1)
     stats_tab = driver.find_element_by_xpath('//*[@id="stats-tab"]')
     stats_tab.click()
-    time.sleep(2)
+    time.sleep(1)
     date = driver.find_element_by_xpath('/html/body/div[3]/div[1]/div[1]/div/div/div[2]/div[2]/div[3]/span[1]').text
     left_table = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[1]/div/table')
     right_table = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[2]')
 
     left_content = left_table.get_attribute('innerText')
     left_team = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[1]/div/table/thead[1]/tr/td/span').text
-    time.sleep(0.5)
+    time.sleep(3)
 
     right_content = right_table.get_attribute('innerText')
     right_team = driver.find_element_by_xpath('//*[@id="stats"]/div[2]/div[3]/div[2]/div/table/thead[1]/tr/td/span').text
-    time.sleep(0.5)
+    time.sleep(3)
 
     league = driver.find_element_by_xpath('/html/body/div[3]/div[1]/div[2]/div/div/div[6]/p').text
     try:

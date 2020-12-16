@@ -1,27 +1,25 @@
 import os
 import pandas as pd
-from pandas.plotting import parallel_coordinates
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import options
 from cycler import cycler
 import random
-import statistics
+import numpy as np
 
-data_dir = '../output_csv/gameProgressions'
+data_dir = '././output_csv/gameProgressions'
 
 #loading in the options file
 teams_seasons = options.teams_seasons
 
-#set rc params for matplotlib
-plt.style.use('dark_background')
-plt.rc('lines', linewidth=1)
-plt.rc('lines', markersize=6)
-plt.rc('axes', prop_cycle=(cycler('marker', ['.']))+ cycler('linestyle', ['-']), axisbelow=True)
-
-
 
 def plotGameProgressions():
+    # set rc params for matplotlib
+    plt.style.use('dark_background')
+    plt.rc('lines', linewidth=1)
+    plt.rc('lines', markersize=6)
+    plt.rc('axes', prop_cycle=(cycler('marker', ['.'])) + cycler('linestyle', ['-']), axisbelow=True)
+    plt.rc('figure', figsize=(10, 7))
 
     team_folders = os.listdir(data_dir)
 
@@ -39,14 +37,22 @@ def plotGameProgressions():
                 print('..')
 
             plt.close('all')
-            for game in games:
+            whole_season = pd.DataFrame()
+            for game in reversed(games):
                 df, home, away, date = convert_stats(data_dir, team_folder, season, game)
-                plotDF(1, df, team_folder, season,home, away, date)
+                df['time'] = df['time'].round()
+                grouped = df.groupby('time', as_index=False)['Moving Average'].mean()
+                whole_season[game[:6]] = grouped['Moving Average']
                 print('..')
 
+            whole_season['Average Performance (Whole Season)'] = whole_season.mean(axis=1)
+            whole_season['Median Performance (Whole Season)'] = whole_season.median(axis=1)
+            whole_season['time'] = np.arange(1,len(whole_season)+1)
 
-
-
+            for game in games:
+                df, home, away, date = convert_stats(data_dir, team_folder, season, game)
+                plotDF(1, df, team_folder, season, home, away, date, whole_season=whole_season)
+                print('..')
 
 
 def convert_stats(data_dir, team_folder, season, game):
@@ -88,11 +94,7 @@ def convert_stats(data_dir, team_folder, season, game):
         # calculate new columns
         df['GDoT'] = df['score'].apply(lambda x: convert_score(x, homeAway))
         df['time'] = df['timestamp'].apply(lambda t: convert_time(t))
-        df['Rolling'] = df['GDoT'].rolling(10).mean()
-
-        df['cum_sum'] = df['GDoT'].cumsum()
-        df['count'] = range(1, len(df['GDoT']) + 1)
-        df['Moving Average'] = df['cum_sum'] / df['count']
+        df['Moving Average'] = df['GDoT'].rolling(6).mean()
 
         return df, home, away, date
 
@@ -123,7 +125,7 @@ def convert_time(t):
         return t
 
 
-def plotDF(mode, df, team_folder, season, home, away, date):
+def plotDF(mode, df, team_folder, season, home, away, date, whole_season=None):
 
     league = team_folder.split(' ')[-1]
     d = date.split("_")
@@ -136,30 +138,49 @@ def plotDF(mode, df, team_folder, season, home, away, date):
     #to plot multiple lines in the same plot, re-use the ax object
     ax = plt.gca()
 
+
     if mode == 0:
+        #plot individual games
         plot1 = df.plot.area(x='time', y='GDoT', stacked=False, colormap='viridis_r', zorder=1000, ax=ax)
         plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=0.8, marker='',
                              color='orange', zorder=1001, ax=ax)
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
         ax.axvline(30, color='white', alpha=0.3, linewidth=2)
         ax.axhline(0, color='white', alpha=0.3, linewidth=2)
-        plt.ylabel('Goal Differential')
+        plt.ylabel('Goal Differential (GDoT)')
         plt.xlabel('Game Time [min]')
         plt.title(f'Goal Differential over Time:\n {date} {home} vs. {away} ({league})')
         plt.legend(loc='lower center', prop=fontP, facecolor='black', framealpha=0.8).set_zorder(1010)
         plt.tight_layout()
-        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
+        plt.savefig(f'././output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
         plt.close()
 
-    else:
+    elif mode == 1:
+        #plot whole season
         r_col = r_color()
+
+        #GDoT
         plot1 = df.plot.area(x='time', y='GDoT', stacked=False, color=r_col, zorder=1000, ax=ax, alpha=0.15)
+
+        #Moving Average / game
         plot2 = df.plot.line(x='time', y='Moving Average', stacked=False, linestyle='-', linewidth=1, marker='',
                              color=r_col, alpha=0.8, zorder=1001, ax=ax)
+
+        #Median Performance
+        plot5 = whole_season.plot.line(x='time', y='Median Performance (Whole Season)', stacked=False, linestyle='-',
+                                       linewidth=1, marker='',
+                                       color='red', alpha=1, zorder=1004, ax=ax)
+
+        # helper-line to show median performance
+        plot6 = whole_season.plot.line(x='time', y='Median Performance (Whole Season)', stacked=False, linestyle='-',
+                                       linewidth=8, marker='',
+                                       color='red', alpha=0.04, zorder=1003, ax=ax)
+
+
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
         ax.axvline(30, color='white', alpha=0.3, linewidth=2)
         ax.axhline(0, color='white', alpha=0.3, linewidth=2)
-        plt.ylabel('Goal Differential')
+        plt.ylabel('Goal Differential (GDoT)')
         plt.xlabel('Game Time [min]')
         plt.title(f'Goal Differential over Time:\n All Games of {team_folder}, {season}')
 
@@ -173,7 +194,10 @@ def plotDF(mode, df, team_folder, season, home, away, date):
 
         ax.set_ylim(-15,15)
         plt.tight_layout()
-        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
+        plt.savefig(f'././output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
+
+    else:
+        pass
 
 
 def r_color():

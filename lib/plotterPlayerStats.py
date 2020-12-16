@@ -13,7 +13,7 @@ def find_max(inframe):
     return maximum
 
 def plotPlayerStats():
-    indir = os.listdir('playerStats_data')
+    indir = os.listdir('../playerStats_data')
 
     for file in indir:
         infile = file[:-4]
@@ -23,7 +23,7 @@ def plotPlayerStats():
         print('\n\n\n')
         print('reading in... ' + infile)
 
-        df = pd.read_csv('playerStats_data/' + infile + '.csv')
+        df = pd.read_csv('./playerStats_data/' + infile + '.csv')
         # df = df.drop(['yellowCards','2mins','redCards'], axis=1 )
 
         try:
@@ -47,7 +47,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(goalsPerGame)-0.25)
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_meanGoalsPerPlayerPerTeamPerGame.png'.format(group))
+            plt.savefig('./output_png/{}_meanGoalsPerPlayerPerTeamPerGame.png'.format(group))
             plt.close('all')
 
             suspensions.plot(x='teams', y='2mins', kind='bar', zorder=100)
@@ -56,7 +56,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(suspensions) - 1)
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_meanSuspensionsPerPlayerPerTeam.png'.format(group))
+            plt.savefig('./output_png/{}_meanSuspensionsPerPlayerPerTeam.png'.format(group))
             plt.close('all')
 
             yellows.plot(x='teams', y='yellowCards', kind='bar', zorder=100)
@@ -65,7 +65,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(yellows) - 1)
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_meanYellowCardsPerPlayerPerTeam.png'.format(group))
+            plt.savefig('./output_png/{}_meanYellowCardsPerPlayerPerTeam.png'.format(group))
             plt.close('all')
 
             reds.plot(x='teams', y='redCards', kind='bar', zorder=100)
@@ -74,7 +74,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(reds))
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_redCardsPerTeam.png'.format(group))
+            plt.savefig('./output_png/{}_redCardsPerTeam.png'.format(group))
             plt.close('all')
 
             goalGetters.plot(x='playerName', y='goalsPerGame', kind='bar', zorder=100)
@@ -83,7 +83,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(goalGetters['goalsPerGame']) - 0.5)
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_{}topGoalgetters.png'.format(group,n))
+            plt.savefig('./output_png/{}_{}topGoalgetters.png'.format(group,n))
             plt.close('all')
 
             dangerousAttacks.plot(y='goalsPerGame', kind='bar', zorder=100)
@@ -92,7 +92,7 @@ def plotPlayerStats():
             plt.ylim(bottom=find_min(dangerousAttacks['playerName']) - 1)
             plt.grid(b=True, zorder=0, linestyle='--')
             plt.tight_layout()
-            plt.savefig('output_png/{}_mostDangerousAttacks.png'.format(group))
+            plt.savefig('./output_png/{}_mostDangerousAttacks.png'.format(group))
             plt.close('all')
 
         except DataError as e:
