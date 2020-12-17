@@ -147,9 +147,9 @@ def plotDF(mode, df, team_folder, season, home, away, date, whole_season=None):
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
         ax.axvline(30, color='white', alpha=0.3, linewidth=2)
         ax.axhline(0, color='white', alpha=0.3, linewidth=2)
-        plt.ylabel('Goal Differential (GDoT)')
+        plt.ylabel('Goal Differential (GD)')
         plt.xlabel('Game Time [min]')
-        plt.title(f'Goal Differential over Time:\n {date} {home} vs. {away} ({league})')
+        plt.title(f'Goal Differential over Time (GDoT):\n {date} {home} vs. {away} ({league})')
         plt.legend(loc='lower center', prop=fontP, facecolor='black', framealpha=0.8).set_zorder(1010)
         plt.tight_layout()
         plt.savefig(f'././output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
@@ -180,9 +180,9 @@ def plotDF(mode, df, team_folder, season, home, away, date, whole_season=None):
         plt.grid(linestyle='-', linewidth='0.5', color='white', alpha=0.1, zorder=1)
         ax.axvline(30, color='white', alpha=0.3, linewidth=2)
         ax.axhline(0, color='white', alpha=0.3, linewidth=2)
-        plt.ylabel('Goal Differential (GDoT)')
+        plt.ylabel('Goal Differential (GD)')
         plt.xlabel('Game Time [min]')
-        plt.title(f'Goal Differential over Time:\n All Games of {team_folder}, {season}')
+        plt.title(f'Goal Differential over Time (GDoT):\n All Games of {team_folder}, {season}')
 
         handles, labels = ax.get_legend_handles_labels()
         handle_list, label_list = [], []
