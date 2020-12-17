@@ -7,7 +7,7 @@ from cycler import cycler
 import random
 import numpy as np
 
-data_dir = '././output_csv/gameProgressions'
+data_dir = '../output_csv/gameProgressions'
 
 #loading in the options file
 teams_seasons = options.teams_seasons
@@ -94,7 +94,7 @@ def convert_stats(data_dir, team_folder, season, game):
         # calculate new columns
         df['GDoT'] = df['score'].apply(lambda x: convert_score(x, homeAway))
         df['time'] = df['timestamp'].apply(lambda t: convert_time(t))
-        df['Moving Average'] = df['GDoT'].rolling(6).mean()
+        df['Moving Average'] = df['GDoT'].rolling(6, center=True).mean()
 
         return df, home, away, date
 
@@ -152,7 +152,7 @@ def plotDF(mode, df, team_folder, season, home, away, date, whole_season=None):
         plt.title(f'Goal Differential over Time (GDoT):\n {date} {home} vs. {away} ({league})')
         plt.legend(loc='lower center', prop=fontP, facecolor='black', framealpha=0.8).set_zorder(1010)
         plt.tight_layout()
-        plt.savefig(f'././output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
+        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/{date.replace("/", "-")}_{home.strip(" ")}_{away.strip(" ")}_goalDifferential')
         plt.close()
 
     elif mode == 1:
@@ -194,7 +194,7 @@ def plotDF(mode, df, team_folder, season, home, away, date, whole_season=None):
 
         ax.set_ylim(-15,15)
         plt.tight_layout()
-        plt.savefig(f'././output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
+        plt.savefig(f'../output_png/gameProgressions/{team_folder}/{season}/All_Games_goalDifferential')
 
     else:
         pass
