@@ -94,7 +94,7 @@ def convert_stats(data_dir, team_folder, season, game):
         # calculate new columns
         df['GDoT'] = df['score'].apply(lambda x: convert_score(x, homeAway))
         df['time'] = df['timestamp'].apply(lambda t: convert_time(t))
-        df['Moving Average'] = df['GDoT'].rolling(6, center=True).mean()
+        df['Moving Average'] = df['GDoT'].rolling(6, min_periods=1, center=True).mean()
 
         return df, home, away, date
 
