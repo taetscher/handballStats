@@ -32,12 +32,12 @@ footer {
 
 
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
 }
 
