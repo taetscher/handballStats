@@ -1,0 +1,60 @@
+@import url('./navbar/navbar.css');
+
+html {
+    /* Wacker Thun Brand Color: #166e6b */
+    background-color: #166e6b;
+}
+
+#content {
+    background-color: #166e6b;
+    color: papayawhip;
+}
+
+#navigation {
+    color: papayawhip;
+    font-size:  2vw;
+    font-style: italic;
+}
+
+footer { 
+   bottom : 10%;  
+   height : 5%;  
+   margin-top : 90%;  
+   text-align: center;  
+   vertical-align: middle; 
+   position:fixed;
+   width:100%;
+}
+
+#author {
+    color: papayawhip;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+}
+
+
+/* Handling the Appearance of links */
+/* unvisited link */
+a:link {
+    color: #ffc059;
+}
+
+/* visited link */
+a:visited {
+    color: #ffc059;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff1c73;
+    text-decoration: none;
+}

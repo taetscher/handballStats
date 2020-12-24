@@ -1,0 +1,175 @@
+#navbar {
+    background-color: #0a3634;
+    color: papayawhip;
+    font-size: 2vw;
+    height: 10vw;
+}
+
+#menu {
+    color: papayawhip;
+    font-size: 3vw;
+}
+
+.navbar-nav {
+    color: papayawhip;
+    background-color: #0a3634;
+}
+
+.nav-link {
+    font-size: 2vw;
+    margin: 0.5vw;
+    background-color: #072625;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.nav-link:hover {
+    font-size: 2vw;
+    margin: 0.5vw;
+    background-color: #0f5452;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+#home {
+    color: #ffc059;
+    font-size: 3vw;
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 239, 213, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: papayawhip;
+} 
+
+.custom-toggler.navbar-toggler:hover {
+    border-color: #ff1c73;
+}
+
+.custom-toggler.navbar-toggler:visited {
+    border-color: #ff1c73;
+}
+
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    #navbar {
+    background-color: #0a3634;
+    color: papayawhip;
+    font-size: 2vw;
+    height: 10vw;
+    }
+
+    #menu {
+        color: papayawhip;
+        font-size: 3vw;
+    }
+
+    .navbar-nav {
+        color: papayawhip;
+        background-color: #0a3634;
+    }
+
+    .nav-link {
+        font-size: 2vw;
+        margin: 0.5vw;
+        background-color: #072625;
+        border-radius: 1vw;
+        text-align: center;
+    }
+    
+    .nav-link:hover {
+        font-size: 2vw;
+        margin: 0.5vw;
+        background-color: #0f5452;
+        border-radius: 1vw;
+        text-align: center;
+    }
+
+    #home {
+        color: #ffc059;
+        font-size: 3vw;
+    }
+
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 239, 213, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: papayawhip;
+    } 
+
+    .custom-toggler.navbar-toggler:hover {
+        border-color: #ff1c73;
+    }
+
+    .custom-toggler.navbar-toggler:visited {
+        border-color: #ff1c73;
+    }
+}
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 600px) {
+    #navbar {
+    background-color: #0a3634;
+    color: papayawhip;
+    font-size: 2vw;
+    height: 10vw;
+    }
+
+    #menu {
+        color: papayawhip;
+        font-size: 5vw;
+    }
+
+    .navbar-nav {
+        color: papayawhip;
+        background-color: #0a3634;
+    }
+
+    .nav-link {
+        font-size: 4vw;
+        margin: 0.5vw;
+        background-color: #072625;
+        border-radius: 1vw;
+        text-align: center;
+    }
+    
+    .nav-link:hover {
+        font-size: 4vw;
+        margin: 0.5vw;
+        background-color: #0f5452;
+        border-radius: 1vw;
+        text-align: center;
+    }
+
+    #home {
+        color: #ffc059;
+        font-size: 4vw;
+    }
+
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 239, 213, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    
+    #menu {
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: papayawhip;
+    } 
+
+    .custom-toggler.navbar-toggler:hover {
+        border-color: #ff1c73;
+    }
+
+    .custom-toggler.navbar-toggler:visited {
+        border-color: #ff1c73;
+    }
+}
