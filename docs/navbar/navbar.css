@@ -1,8 +1,8 @@
 #navbar {
     background-color: #0a3634;
     color: papayawhip;
-    font-size: 2vw;
-    height: 10vw;
+    font-size: 1vw;
+    height: 5vw;
 }
 
 #menu {
@@ -16,7 +16,7 @@
 }
 
 .nav-link {
-    font-size: 2vw;
+    font-size: 1vw;
     margin: 0.5vw;
     background-color: #072625;
     border-radius: 1vw;
@@ -24,7 +24,7 @@
 }
 
 .nav-link:hover {
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 0.5vw;
     background-color: #0f5452;
     border-radius: 1vw;
