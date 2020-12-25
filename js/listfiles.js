@@ -4,6 +4,7 @@ export function listfiles(dir){
     datatype: 'json',
     url: dir,
     success: function(data){
+     console.log(data)
      $(data).find("a:contains(.png)").each(function(){
         // will loop through and append elements to div
         var div = document.getElementById('listOfFiles')
