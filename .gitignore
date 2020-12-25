@@ -5,3 +5,10 @@ ghostdriver.log
 .idea/
 .idea/workspace.xml
 debug.log
+geckodriver.log 
+vendor
+.bundle
+Gemfile
+Gemfile.lock
+
+.idea/
