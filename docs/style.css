@@ -1,4 +1,5 @@
-@import url('./navbar/navbar.css');
+@import url('./webkit_css/navbar.css');
+@import url('./webkit_css/scrollbar.css');
 
 html {
     /* Wacker Thun Brand Color: #166e6b */
