@@ -1,3 +1,3 @@
-import {listdir} from './listfiles.js';
+import {listfiles} from './listfiles.js';
 
-listdir("../output_png/progress_plots/Wacker_Thun_NLA/Saison_18_19/Wyttenbach_Ivan")
+listfiles("../output_png/progress_plots/Wacker_Thun_NLA/Saison_18_19/Wyttenbach_Ivan/")

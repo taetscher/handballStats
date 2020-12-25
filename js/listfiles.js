@@ -1,4 +1,4 @@
-export function listdir(dir){
+export function listfiles(dir){
     
     $.ajax({
   url: dir,
