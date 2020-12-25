@@ -1,8 +1,9 @@
 export function listfiles(dir){
     
     $.ajax({
-  url: dir,
-  success: function(data){
+    datatype: 'json',
+    url: dir,
+    success: function(data){
      $(data).find("a:contains(.png)").each(function(){
         // will loop through and append elements to div
         var div = document.getElementById('listOfFiles')
@@ -13,7 +14,7 @@ export function listfiles(dir){
         div.appendChild(img)
         console.log(".." + link);
      });
-  }
-});
+    }
+    });
 
 }
