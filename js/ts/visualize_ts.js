@@ -8,8 +8,7 @@ export function visualizeTS(){
     var season = document.getElementById('dropdown_seasons').innerHTML;
     var stat = document.getElementById('dropdown_stats').innerHTML;
     var dataURL = ts_baseurl+team+"/"+season+"/"+stat;
-    dataURL = dataURL.replace(/ /g, '%20')
+    dataURL = encodeURI(dataURL)
     
-
     console.log(dataURL)
 }
