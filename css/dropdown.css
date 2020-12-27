@@ -1,16 +1,17 @@
 /* Handling the Appearance of links */
 /* unvisited link */
-li:link {
+option:link {
     color: #ffc059;
 }
 
 /* visited link */
-li:visited {
+option:visited {
     color: #ffc059;
 }
 
 /* mouse over link */
-li:hover {
+option:hover {
     color: #ff1c73;
     text-decoration: none;
+    cursor: pointer;
 }
