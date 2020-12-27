@@ -9,7 +9,6 @@ export function getURL(theUrl){
 
 export function getTree(theUrl){
     var response = getURL(theUrl);
-    console.log(response)
     var x = 0;
     var links = {};
     for (x in response['tree']) {

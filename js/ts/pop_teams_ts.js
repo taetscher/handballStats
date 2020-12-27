@@ -1,4 +1,4 @@
-export function populateDropdownTS(tree, elementId){
+export function populateDropdownTS(tree){
     var keys = Object.keys(tree);
     var x;
     for (x in keys){
@@ -7,7 +7,6 @@ export function populateDropdownTS(tree, elementId){
         newO.setAttribute('href',"#");
         newO.addEventListener('click', function() {
             var selected = this.innerHTML;
-            console.log(selected);
             document.getElementById('dropdown_teams').innerHTML = selected
                         })
         newO.innerHTML = team;

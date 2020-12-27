@@ -15,7 +15,3 @@ option:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-ul {
-  list-style: inside;
-}
