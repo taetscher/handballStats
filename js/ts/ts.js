@@ -42,12 +42,7 @@ season.addEventListener('click', function(){
 //get the choice of document
 var choice = document.getElementById('stats');
 choice.addEventListener('click', function(){
-        var filename = document.getElementById('dropdown_stats').innerHTML;
-        
-        //get final treeURL from hidden div to get the correct file
-        var statsURL = JSON.parse(document.getElementById('stats_dict').innerHTML)
-    
         //initiate the display of data via d3.js
-        visualizeTS(filename,statsURL)
+        visualizeTS()
     })
 
