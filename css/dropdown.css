@@ -1,0 +1,16 @@
+/* Handling the Appearance of links */
+/* unvisited link */
+li:link {
+    color: #ffc059;
+}
+
+/* visited link */
+li:visited {
+    color: #ffc059;
+}
+
+/* mouse over link */
+li:hover {
+    color: #ff1c73;
+    text-decoration: none;
+}
