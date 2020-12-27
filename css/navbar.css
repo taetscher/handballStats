@@ -5,6 +5,16 @@
     height: 7vh;
 }
 
+.nav-item {
+    z-index: 300000;
+    background-color: #0a3634;
+}
+
+#collapsibleNavbar {
+    z-index: 300000;
+    background-color: #0a3634;
+}
+
 #menu {
     color: papayawhip;
     font-size: 3vh;

@@ -15,3 +15,25 @@ option:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+ul {
+    padding-left: 0px;
+    background-color: #1a8783;
+}
+
+.dropdown .show {
+    background-color: #1a8783;
+    border-color: papayawhip;
+    color: papayawhip;
+}
+
+option{
+    text-align: left;
+    color: papayawhip;
+}
+
+#dropdown_teams, #dropdown_seasons, #dropdown_stats {
+    background-color: #0a3634;
+    color: papayawhip;
+    border-color: #ffc059;
+}
