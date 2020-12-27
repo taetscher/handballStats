@@ -15,6 +15,7 @@
     
     
   <body>
+    <script type="module" src="../js/ts/ts.js"></script>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
       <!-- Brand -->
@@ -42,10 +43,40 @@
     </nav>
     <!-- Main Page Content -->
     <main id="content" class="container-fluid" role="main">
-        <div id='listOfFiles'>
-            test
-            <script type="module" src="../js/listfilesTest.js"></script>
+
+        <div>
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Team
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id='teams'>
+
+                </div>
+
+            </div>
+            
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Season
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id='seasons'>
+
+                </div>
+
+            </div>
+            
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose a Statistic
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id='stats'>
+
+                </div>
+
+            </div>
+            
         </div>
+        
     </main>
     <div class="container-fluid" id='footer'>
       <p id='author'>Author: Benjamin Schüpbach</p>
