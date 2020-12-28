@@ -3,6 +3,11 @@
 @import url('./dropdown.css');
 @import url('charts.css');
 
+body {
+    font: 14px Georgia;
+    font-size: 2.5vh;
+}
+
 html {
     /* Wacker Thun Brand Color: #166e6b */
     background-color: #166e6b;

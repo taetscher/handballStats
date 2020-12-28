@@ -125,11 +125,13 @@ export function visualizeTS(){
 
         // add the X Axis
         svg.append("g")
+            .attr('class', 'axes')
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
         // add the Y Axis
         svg.append("g")
+            .attr('class', 'axes')
             .call(d3.axisLeft(y));
 
         });

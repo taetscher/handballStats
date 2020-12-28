@@ -23,3 +23,8 @@
     stroke-opacity; 1;
     opacity: 0.8;
 }
+
+.axes {
+    font: 14px Georgia;
+    font-size: 2vh;
+}
