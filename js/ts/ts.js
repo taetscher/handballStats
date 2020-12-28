@@ -43,6 +43,10 @@ season.addEventListener('click', function(){
 //get the choice of document
 var choice = document.getElementById('stats');
 choice.addEventListener('click', function(){
+        
+        //clear the svg element first (if something had been displayed before)
+        $("#chart").html("");
+        
         //initiate the display of data via d3.js
         visualizeTS()
     })

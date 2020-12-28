@@ -1,0 +1,25 @@
+.grid{
+    stroke: papayawhip;
+    stroke-width: 1px;
+    opacity: 1;
+}
+
+.halftime{
+    opacity: 1;
+    stroke: papayawhip;
+    stroke-width: 6px;
+}
+
+.draw {
+    opacity: 1;
+    stroke: #ff1c73;
+    stroke-width: 6px;
+}
+
+.area {
+    color: #0a3634;
+    stroke: #ffc059;
+    stroke-width: 2px;
+    stroke-opacity; 1;
+    opacity: 0.8;
+}
