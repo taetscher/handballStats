@@ -1,30 +1,46 @@
 .grid{
-    stroke: papayawhip;
+    color: #ffc059;
     stroke-width: 1px;
     opacity: 1;
 }
 
 .halftime{
     opacity: 1;
-    stroke: papayawhip;
+    stroke: #ffc059;
     stroke-width: 6px;
 }
 
 .draw {
-    opacity: 1;
+    opacity: 0.8;
     stroke: #ff1c73;
-    stroke-width: 6px;
+    stroke-width: 3px;
 }
 
 .area {
     color: #0a3634;
-    stroke: #ffc059;
-    stroke-width: 2px;
+    stroke: papayawhip;
+    stroke-width: 3px;
     stroke-opacity; 1;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .axes {
     font: 14px Georgia;
     font-size: 2vh;
+    color: #ffc059;
+    stroke-width: 6px;
+}
+
+.axes-label {
+    fill: #ffc059;
+}
+
+.chart-title {
+    fill: #ffc059;
+}
+
+#viz {
+    min-height: 60vh;
+    margin-bottom: 5vh;
+    background-color: #166e6b;
 }

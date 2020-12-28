@@ -18,18 +18,19 @@ option:hover {
 
 ul {
     padding-left: 0px;
-    background-color: #1a8783;
+    background-color: rgba(10, 54, 52, 0.8);
 }
 
 .dropdown .show {
-    background-color: #1a8783;
-    border-color: papayawhip;
-    color: papayawhip;
+    background-color: rgba(10, 54, 52, 0.8);
+    border-color: #ffc059;
 }
 
 option{
     text-align: left;
-    color: papayawhip;
+    color: #ffc059;
+    border-color: #ffc059;
+    margin-bottom: 0.5vh;
 }
 
 #dropdown_teams, #dropdown_seasons, #dropdown_stats {

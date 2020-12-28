@@ -6,7 +6,9 @@ import {populateStats} from './pop_stats_ts.js'
 import {visualizeTS} from './visualize_ts.js'
 import {addHiddenScript} from '../add_hidden_script.js'
 
-document.getElementById("dropdown_stats").style.visibility= "hidden" ;
+document.getElementById("dropdown_stats").style.visibility= "hidden";
+
+window.addEventListener('resize', visualizeTS);
 
 //add hidden scripts to store JSON data
 addHiddenScript('seasons_dict');
@@ -43,11 +45,8 @@ season.addEventListener('click', function(){
 //get the choice of document
 var choice = document.getElementById('stats');
 choice.addEventListener('click', function(){
-        
-        //clear the svg element first (if something had been displayed before)
-        $("#chart").html("");
-        
         //initiate the display of data via d3.js
         visualizeTS()
     })
+
 

@@ -4,6 +4,8 @@ import {whoAreWe} from '../us.js';
 import {formatScore, formatTimestamp} from './format_csv.js'
 
 export function visualizeTS(){
+    //remove existing visualization
+    $("#chart").html("");
     
     //build in an option to visualize everything on top of each other (see all games)
     
@@ -14,7 +16,8 @@ export function visualizeTS(){
     var stat = document.getElementById('dropdown_stats').innerHTML;
     var dataURL = ts_baseurl+team+"/"+season+"/"+stat;
     dataURL = encodeURI(dataURL)
-    //console.log(dataURL)
+    var title_pieces = stat.split(' ');
+    //console.log(title_pieces)
     
     //load the data
     loadCSV(dataURL).then(function (data){
@@ -40,12 +43,13 @@ export function visualizeTS(){
             d.timestamp = formatTimestamp(d.timestamp)
             d.score = formatScore(d.score, homeAway)
             });
-        console.log(data)
         
         // set the dimensions and margins of the graph
-        var margin = {top: 20, right: 20, bottom: 30, left: 50},
-        width = 1500 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        var margin = {top: 80, right: 50, bottom: 80, left: 60};
+        var width = parseInt(d3.select('#viz').style('width'), 10);
+        width = width - margin.left - margin.right;
+        var height = parseInt(d3.select('#viz').style('height'), 10);
+        height = height - margin.top - margin.bottom;
 
         // set the ranges for svg element
         var x = d3.scaleLinear().range([0, width]);
@@ -133,14 +137,38 @@ export function visualizeTS(){
         svg.append("g")
             .attr('class', 'axes')
             .call(d3.axisLeft(y));
-
+        
+        
+        // text label for the x axis
+        svg.append("text")
+            .attr('class', 'axes-label')
+            .attr("transform", "translate(" + (width/2) + " ," + (height + margin.top/1.4) + ")")
+            .style("text-anchor", "middle")
+            .text("Game Time [minutes]");
+        
+        // text label for the y axis
+        svg.append("text")
+            .attr('class', 'axes-label')
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 0 - (height / 2))
+            .attr("dy", "0.8em")
+            .style("text-anchor", "middle")
+            .text("Goal Differential"); 
+        
+        // text label for the Title
+        svg.append("text")
+            .attr('class', 'chart-title')
+            .attr("transform", "translate(" + (width/2) + " ," + (0-margin.top/2) + ")")
+            .attr("text-anchor", "middle")   
+            .text("Chart Title");
+        
+        
+        
+        
+        
         });
+    
+    
 
-        
-        
-        
-        
-        
-        
-        
     }
