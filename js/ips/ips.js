@@ -1,9 +1,9 @@
 import * as d3 from "https://unpkg.com/d3@5?module";
 import {getTree} from '../get_tree.js'
-import {populateDropdownTS} from './pop_teams_ts.js'
-import {populateSeasons} from './pop_seasons_ts.js'
-import {populateStats} from './pop_stats_ts.js'
-import {visualizeTS} from './visualize_ts.js'
+import {populateDropdownTS} from './pop_teams_ips.js'
+import {populateSeasons} from './pop_seasons_ips.js'
+import {populateStats} from './pop_stats_ips.js'
+import {visualizeTS} from './visualize_ips.js'
 import {addHiddenScript} from '../add_hidden_script.js'
 
 document.getElementById("dropdown_stats").style.visibility= "hidden" ;
@@ -13,7 +13,7 @@ addHiddenScript('seasons_dict');
 addHiddenScript('stats_dict');
 
 //populate the team selection dropdown
-var teams = getTree("https://api.github.com/repos/taetscher/handballStats/git/trees/f6a0ab9b96267c9eeadef0690d80dbe42f7fa5a1");
+var teams = getTree("https://api.github.com/repos/taetscher/handballStats/git/trees/b66b43154f124ef9941dcecda8db1e9f28d0f56d");
 populateDropdownTS(teams);
 
 //populate the season selection dropdown
