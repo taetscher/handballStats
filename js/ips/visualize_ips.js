@@ -1,8 +1,11 @@
-import {loadCSV} from '../load_csv.js'
+import {loadCSV} from '../load_csv.js';
+import {vizClean} from './visualize_clean_data.js';
+import {vizUnClean} from './visualize_unclean_data.js';
 
-export function visualizeTS(){
+export function visualizeIPS(){
     
-    //build in an option to visualize everything on top of each other (see all games)
+    //remove existing visualization
+    $("#chart").html("");
     
     //construct an url to the base data
     var ts_baseurl = "https://raw.githubusercontent.com/taetscher/handballStats/master/output_csv/progress_data/";
@@ -15,8 +18,16 @@ export function visualizeTS(){
     
     //load the data
     loadCSV(dataURL).then(function (data){
+
+        //check which viz-mode is needed
+        var unclean = ['7M', '7M_goalie', 'P-W_goalie', 'TORE'];
         
-        //here comes the visualization stuff
-    }
-        );
+        if (unclean.includes(stat)){
+            vizUnClean(data)
+            }
+        else {
+            vizClean(data)
+            }
+        }
+    );
 }

@@ -34,12 +34,6 @@ export function visualizeTS(){
         //reverse the data so it makes sense
         var data = data.reverse();
         
-        //format the data so it is plottable
-        var x;
-        for (x in data){
-            //console.log(data[x])
-        }
-        
         //build in mechanism to check if home or away
         var us = whoAreWe();
         var homeAway = 0;

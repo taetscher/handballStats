@@ -3,7 +3,7 @@ import {getTree} from '../get_tree.js'
 import {populateDropdownTS} from './pop_teams_ips.js'
 import {populateSeasons} from './pop_seasons_ips.js'
 import {populateStats} from './pop_stats_ips.js'
-import {visualizeTS} from './visualize_ips.js'
+import {visualizeIPS} from './visualize_ips.js'
 import {addHiddenScript} from '../add_hidden_script.js'
 
 document.getElementById("dropdown_stats").style.visibility= "hidden" ;
@@ -44,6 +44,6 @@ season.addEventListener('click', function(){
 var choice = document.getElementById('stats');
 choice.addEventListener('click', function(){
         //initiate the display of data via d3.js
-        visualizeTS()
+        visualizeIPS()
     })
 
