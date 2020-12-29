@@ -18,13 +18,6 @@ export function vizClean(data){
     var height = parseInt(d3.select('#viz').style('height'), 10);
     height = height - margin.top - margin.bottom;
     
-    var x = d3.scaleLinear()
-          .domain(d3.extent(data, d => d.year))
-          .range([0, width]);
-    var y = d3.scaleLinear()
-          .domain([0, 1])
-          .range([height, 0]);
-    
     // append the svg obgect to the body of the page
     // appends a 'group' element to 'svg'
     // moves the 'group' element to the top left margin
@@ -42,41 +35,95 @@ export function vizClean(data){
         
         //convert the data
         var player = data[n].SPIELER;
+        
+        //convert dates to actual dates
         var dates = Object.keys(data[n]);
         dates.shift()
+        var e;
+        for (e in dates){
+            dates[e] = d3.timeParse("%y_%m_%d")(dates[e])
+        }
+        
+        //convert statistics to numbers
         var statistics = Object.values(data[n]);
         statistics.shift()
+        for (e in statistics){
+            statistics[e] = Number(statistics[e])
+        }
         
-        //convert dates to actual dates (use d3.parsedate)
-        //convert statistics to numbers
-        
-        //then go on an use them on the graph
+        //set up array for d3.line
+        var xy = [];
+        for(var i=0;i<dates.length;i++){
+           xy.push({x:dates[i],y:statistics[i]});
+        }
 
+        //set ranges
+        var x = d3.scaleTime()
+            .domain(d3.extent(xy, function(d) { return d.x; }))
+            .range([0, width]);
+        var y = d3.scaleLinear()
+            .domain(d3.extent(xy, function(d) { return d.y; }))
+            .range([height, 0]);
         
-        var line = d3.line()
-         .x(d => x(dates))
-         .y(d => y(statistics));
+        // only on the first one, append the gridlines
+        if (n==0){
+            // gridlines in x axis function
+            function make_x_gridlines() {		
+                return d3.axisBottom(x)
+                .ticks()
+                }
+            // gridlines in y axis function
+            function make_y_gridlines() {
+                const yAxisTicks = y.ticks()
+                    .filter(tick => Number.isInteger(tick));            
+                return d3.axisLeft(y)
+                .tickValues(yAxisTicks)
+                } 
+            // add the X gridlines
+            svg.append("g")			
+              .attr("class", "grid")
+              .attr("transform", "translate(0," + height + ")")
+              .call(make_x_gridlines()
+                  .tickSize(-height)
+                  .tickFormat("")
+                    )
+            // add the Y gridlines
+            svg.append("g")			
+              .attr("class", "grid")
+              .call(make_y_gridlines()
+                  .tickSize(-width)
+                  .tickFormat("")
+                    )
+        }
         
         
-        const path = svg.append("g")
-                      .selectAll(".total")
-                      .data(data[n])
-                      .enter()
-                      .append("path")
-                      .attr("id", data[n].SPIELER)
-                      .attr("fill", "none")
-                      .attr("stroke", "purple")
-                      .attr("mix-blend-mode", "multiply")
-                      .attr("stroke-width", 1)
-                      .attr("stroke-linejoin", "round")
-                      .attr("d", line(data[n]));
-    }
-    
-    
-    
-    
-    
-    
-    
-    
+        //set up random color
+        var color = '#'+Math.floor(Math.random() * Math.pow(2,32) ^ 0xffffff).toString(16).substr(-6);
+        
+        // Add the line
+        svg.append("path")
+          .datum(xy)
+          .attr('class', 'player_stat')
+          .attr("fill", "none")
+          .attr("stroke", color)
+          .attr("d", d3.line()
+            .x(function(d) { return x(d.x) })
+            .y(function(d) { return y(d.y) })
+            )
+        
+        // only on the last one, append the axes
+        if (n==data.length -1){
+                //append x-axis
+                svg.append("g")
+                    .attr('class', 'axes')
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x)
+                         .ticks());
+            
+                //append x-axis
+                svg.append("g")
+                    .attr('class', 'axes')
+                    .call(d3.axisLeft(y));    
+        }
+    } 
 }

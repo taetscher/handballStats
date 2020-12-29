@@ -8,6 +8,9 @@ import {addHiddenScript} from '../add_hidden_script.js'
 
 document.getElementById("dropdown_stats").style.visibility= "hidden" ;
 
+//every time the window is resized, draw again
+window.addEventListener('resize', visualizeIPS);
+
 //add hidden scripts to store JSON data
 addHiddenScript('seasons_dict');
 addHiddenScript('stats_dict');
