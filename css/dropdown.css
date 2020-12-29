@@ -38,3 +38,8 @@ option{
     color: papayawhip;
     border-color: #ffc059;
 }
+
+#dropdown_button {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
