@@ -3,6 +3,7 @@ import * as d3 from "https://unpkg.com/d3@5?module";
 export function vizClean(data){
     
     console.log('clean')
+    console.log(data)
     
     //set up title
     var team = document.getElementById('dropdown_teams').innerHTML;
@@ -12,7 +13,7 @@ export function vizClean(data){
 
     
     // set the dimensions and margins of the graph
-    var margin = {top: 80, right: 50, bottom: 80, left: 60};
+    var margin = {top: 80, right: 50, bottom: 120, left: 60};
     var width = parseInt(d3.select('#viz').style('width'), 10);
     width = width - margin.left - margin.right;
     var height = parseInt(d3.select('#viz').style('height'), 10);
@@ -50,6 +51,8 @@ export function vizClean(data){
         for (e in statistics){
             statistics[e] = Number(statistics[e])
         }
+        
+        console.log(statistics)
         
         //set up array for d3.line
         var xy = [];
@@ -113,7 +116,9 @@ export function vizClean(data){
                 svg.append("g")
                     .attr('class', 'axes')
                     .attr("transform", "translate(0," + height + ")")
-                    .call(d3.axisBottom(x).tickValues(dates))
+                    .call(d3.axisBottom(x)
+                          .tickValues(dates)
+                          .tickFormat(d3.timeFormat('%d.%m.%y')))
                     .selectAll("text")
                         .attr('class', 'x_ticks_ips')
                         .style("text-anchor", "end")
