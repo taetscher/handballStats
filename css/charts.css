@@ -1,5 +1,5 @@
 .grid{
-    color: #ffc059;
+    color: papayawhip;
     stroke-width: 1px;
     opacity: 1;
 }
@@ -11,7 +11,7 @@
 }
 
 .draw {
-    opacity: 0.8;
+    opacity: 0;
     stroke: #ffc059;
     stroke-width: 5px;
 }
@@ -20,13 +20,14 @@
     color: #0a3634;
     stroke: #ff1c73;
     stroke-width: 3px;
-    stroke-opacity; 1;
-    opacity: 0.9;
+    stroke-opacity: 1;
+    fill-opacity: 0.5;
+
 }
 
 .axes {
     font: 14px Georgia;
-    font-size: 1.5vh;
+    font-size: 2.2vh;
     color: #ffc059;
     stroke-width: 3px;
 }

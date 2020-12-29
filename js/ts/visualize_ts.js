@@ -16,8 +16,18 @@ export function visualizeTS(){
     var stat = document.getElementById('dropdown_stats').innerHTML;
     var dataURL = ts_baseurl+team+"/"+season+"/"+stat;
     dataURL = encodeURI(dataURL)
-    var title_pieces = stat.split(' ');
-    //console.log(title_pieces)
+    
+    // set up array for chart title
+    var date = stat.substr(0,8)
+    date = date.split('_').reverse()
+    date = date.join('.')
+    console.log(date)
+    var title = stat.substr(8).split('_').slice(1);
+    title[1] = title[1].substr(0,title[1].length - 4)
+    var t;
+    for (t in title){
+        title[t] = title[t].trim()
+    }
     
     //load the data
     loadCSV(dataURL).then(function (data){
@@ -164,7 +174,7 @@ export function visualizeTS(){
             .attr('class', 'chart-title')
             .attr("transform", "translate(" + (width/2) + " ," + (0-margin.top/2) + ")")
             .attr("text-anchor", "middle")   
-            .text("Chart Title");
+            .text(title[0] + ' vs. ' + title[1] + '  (' + date + ', ' + season.replace('_', '/') +')');
         
         
         
