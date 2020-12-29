@@ -1,6 +1,16 @@
+.x_ticks_ips{
+    font-size: 2vh;
+}
+
 .grid{
     color: papayawhip;
     stroke-width: 1px;
+    opacity: 1;
+}
+
+.grid_ips{
+    color: papayawhip;
+    stroke-width: 2px;
     opacity: 1;
 }
 
@@ -44,4 +54,8 @@
     min-height: 60vh;
     margin-bottom: 5vh;
     background-color: #166e6b;
+}
+
+.player_stat {
+    stroke-width: 2px;
 }

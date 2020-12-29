@@ -69,33 +69,29 @@ export function vizClean(data){
         if (n==0){
             // gridlines in x axis function
             function make_x_gridlines() {		
-                return d3.axisBottom(x)
-                .ticks()
+                return d3.axisBottom(x).ticks(dates.length).tickValues(dates)
                 }
             // gridlines in y axis function
             function make_y_gridlines() {
-                const yAxisTicks = y.ticks()
-                    .filter(tick => Number.isInteger(tick));            
-                return d3.axisLeft(y)
-                .tickValues(yAxisTicks)
+                const yAxisTicks = y.ticks().filter(tick => Number.isInteger(tick)); return d3.axisLeft(y).tickValues(yAxisTicks)
                 } 
             // add the X gridlines
             svg.append("g")			
-              .attr("class", "grid")
+              .attr("class", "grid_ips")
               .attr("transform", "translate(0," + height + ")")
               .call(make_x_gridlines()
+                  .ticks()
                   .tickSize(-height)
                   .tickFormat("")
                     )
             // add the Y gridlines
             svg.append("g")			
-              .attr("class", "grid")
+              .attr("class", "grid_ips")
               .call(make_y_gridlines()
                   .tickSize(-width)
                   .tickFormat("")
                     )
         }
-        
         
         //set up random color
         var color = '#'+Math.floor(Math.random() * Math.pow(2,32) ^ 0xffffff).toString(16).substr(-6);
@@ -117,8 +113,13 @@ export function vizClean(data){
                 svg.append("g")
                     .attr('class', 'axes')
                     .attr("transform", "translate(0," + height + ")")
-                    .call(d3.axisBottom(x)
-                         .ticks());
+                    .call(d3.axisBottom(x).tickValues(dates))
+                    .selectAll("text")
+                        .attr('class', 'x_ticks_ips')
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", ".15em")
+                        .attr("transform", "rotate(-65)");
             
                 //append x-axis
                 svg.append("g")
