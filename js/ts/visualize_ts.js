@@ -85,9 +85,12 @@ export function visualizeTS(){
             }
 
         // gridlines in y axis function
-        function make_y_gridlines() {		
+        function make_y_gridlines() {
+            const yAxisTicks = y.ticks()
+                .filter(tick => Number.isInteger(tick));            
+            
             return d3.axisLeft(y)
-            .ticks()
+            .tickValues(yAxisTicks)
             }
         
         // add the X gridlines
@@ -136,8 +139,8 @@ export function visualizeTS(){
         // add the Y Axis
         svg.append("g")
             .attr('class', 'axes')
-            .call(d3.axisLeft(y));
-        
+            .call(make_y_gridlines()
+                 .tickFormat(d3.format('.0f')));
         
         // text label for the x axis
         svg.append("text")
@@ -165,10 +168,6 @@ export function visualizeTS(){
         
         
         
-        
-        
-        });
-    
-    
 
+        });
     }
