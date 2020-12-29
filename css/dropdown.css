@@ -24,6 +24,8 @@ ul {
 .dropdown .show {
     background-color: rgba(10, 54, 52, 0.8);
     border-color: #ffc059;
+    max-height: 30vh;
+    overflow: auto;
 }
 
 option{
