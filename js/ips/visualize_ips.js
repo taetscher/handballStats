@@ -6,6 +6,7 @@ export function visualizeIPS(){
     
     //remove existing visualization
     $("#chart").html("");
+    $("#checkboxes").html("");
     
     //construct an url to the base data
     var ts_baseurl = "https://raw.githubusercontent.com/taetscher/handballStats/master/output_csv/progress_data/";

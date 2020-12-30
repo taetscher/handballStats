@@ -2,6 +2,7 @@
 @import url('./scrollbar.css');
 @import url('./dropdown.css');
 @import url('charts.css');
+@import url('checkboxes.css');
 
 body {
     font: 14px Georgia;

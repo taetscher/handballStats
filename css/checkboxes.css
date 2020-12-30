@@ -1,0 +1,9 @@
+.checkbox{
+    margin: 0.6vw;
+    font-size: 2vh;
+    display: inline-table;
+}
+
+.checkbox_box {
+    margin: 0.3vw;
+}

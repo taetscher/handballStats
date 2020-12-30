@@ -1,7 +1,12 @@
+import {addCheckbox} from './add_checkbox.js'
+
 export function vizClean(data){
     
     console.log('clean')
     //console.log(data)
+    
+    
+    //set up a div before the svg-div to append checkboxes to
     
     //set up title
     var team = document.getElementById('dropdown_teams').innerHTML;
@@ -120,16 +125,30 @@ export function vizClean(data){
         
         // Add the line
         svg.append("path")
-          .datum(xy)
-          .attr('class', 'player_stat')
-          .attr("fill", "none")
-          .attr("stroke", color)
-          .attr("d", d3.line()
+            .datum(xy)
+            .attr('class', 'player_stat')
+            .attr('id', player + '_line')
+            .attr("fill", "none")
+            .attr("stroke", color)
+            .attr('stroke-width', '4px')
+            .on('mouseover', function(){
+                    d3.select(this).style('stroke-width', '10px')
+                })
+            .on('mouseout', function(){
+                    d3.select(this).style('stroke-width', '4px')
+                })
+            .attr("d", d3.line()
             .x(function(d) { return x(d.x) })
             .y(function(d) { return y(d.y) })
             )
         
-        // only on the last one, append the axes
+        
+        //append checkboxes to div and name them according to players
+        addCheckbox(player)
+        
+        //connect checkboxes to attribute visibility for path
+        
+        // only on the last iteration, append the axes
         if (n==data.length -1){
                 // gridlines in y axis function
                 function make_y_gridlines() {
