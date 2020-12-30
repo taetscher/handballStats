@@ -3,7 +3,7 @@ import {addCheckbox} from './add_checkbox.js'
 export function vizClean(data){
     
     console.log('clean')
-    //console.log(data)
+    console.log(data)
     
     
     //set up a div before the svg-div to append checkboxes to
@@ -185,24 +185,23 @@ export function vizClean(data){
                 buttonDiv.id = 'check_all'
             
                 var button = document.createElement('button');
+                button.className = "btn btn-primary btn-lg btn-block"
+                button.innerHTML = 'Check / Uncheck All'
                 button.id = 'checkbox_master';
                 button.value = 1;
             
-                var label = document.createElement('label');
-                label.appendChild(document.createTextNode('Check / Uncheck All'));
-            
                 buttonDiv.appendChild(button);
-                buttonDiv.appendChild(label);
-            
                 pDiv.appendChild(buttonDiv);
             
                 
                 //prepare functions to manage the button
                 function checkAll(){
-                    d3.selectAll('checkbox_box').attr('checked','true');
+                    d3.selectAll('.checkbox_box').property('checked', true);
+                    d3.selectAll('.player_stat').attr('opacity', 1);
                 }
                 function uncheckAll(){
-                    d3.selectAll('checkbox_box').attr('checked','false');
+                    d3.selectAll('.checkbox_box').property('checked', false);
+                    d3.selectAll('.player_stat').attr('opacity', 0);
                 }
             
                 //select all paths and checkbox values and set them according to the button
@@ -212,16 +211,16 @@ export function vizClean(data){
                     
                     if (state == 1){
                         //everything is checked, uncheck everything
-                        console.log('uncheck')
-                        
+                        console.log('uncheck');
+                        uncheckAll();
                         //set state to 0
-                        d3.select(this).property('value', 0)
+                        d3.select(this).property('value', 0);
                     }else{
                         //everything is not checked, check everything
-                        console.log('check')
-                        
-                        //set state to 0
-                        d3.select(this).property('value', 1)
+                        console.log('check');
+                        checkAll();
+                        //set state to 1
+                        d3.select(this).property('value', 1);
                     }
                 })
         }

@@ -8,3 +8,11 @@
     margin: 0.5vw;
     transform: scale(1.7);
 }
+
+#checkbox_master {
+    margin: 1vw;
+    background-color: #0a3634;
+    border-color: #ffc059;
+    color: #ffc059;
+    
+}

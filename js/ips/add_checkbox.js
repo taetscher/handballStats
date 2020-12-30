@@ -28,17 +28,18 @@ export function addCheckbox(player) {
 
         //appending a-tag to div
         myDiv.appendChild(boxDiv);
-    
+        
+        //connect checkboxes with lines
         d3.select("#checkbox_"+player).on('change', function(){
             
                             var state = d3.select(this).property('checked')
                             
                             if (state == false){
                                 d3.select('#' + player + '_line')
-                                .style('opacity', 0)
+                                .attr('opacity', 0)
                             }else{
                                 d3.select('#' + player + '_line')
-                                .style('opacity', 1)
+                                .attr('opacity', 1)
                             }
             })
                             
