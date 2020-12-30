@@ -120,6 +120,10 @@ export function vizClean(data){
                     )
         }
         
+        //append checkboxes to div and name them according to players
+        var cb_player = player.replaceAll(' ','_');
+        addCheckbox(cb_player)
+        
         //set up random color
         var color = '#'+Math.floor(Math.random() * Math.pow(2,32) ^ 0xffffff).toString(16).substr(-6);
         
@@ -133,23 +137,36 @@ export function vizClean(data){
             .attr('stroke-width', '4px')
             .on('mouseover', function(){
                     d3.select(this)
-                        .attr('stroke-width', '10px')
+                        .attr('stroke-width', '10px');
             
+                    var lineID = d3.select(this).attr('id');
+                    var state = d3.select(this).attr('opacity');
+                    
+                    if (state == 0){}
+                    else{
+                        d3.select('#label_' + lineID.substr(0,lineID.length - 5))
+                        .style('background-color', '#ff1c73');   
+                    }
+                    
+                             
                 })
             .on('mouseout', function(){
                     d3.select(this)
-                        .attr('stroke-width', '4px')
+                        .attr('stroke-width', '4px');
+            
+                    var lineID = d3.select(this).attr('id');
+                    var state = d3.select(this).attr('opacity');
+                    
+                    if (state == 0){}
+                    else{
+                        d3.select('#label_' + lineID.substr(0,lineID.length - 5))
+                        .style('background-color', null);   
+                    }
                 })
             .attr("d", d3.line()
             .x(function(d) { return x(d.x) })
             .y(function(d) { return y(d.y) })
-            )
-        
-        
-        //append checkboxes to div and name them according to players
-        var cb_player = player.replaceAll(' ','_');
-        addCheckbox(cb_player)
-                        
+            )                        
         
         // only on the last iteration, append the axes and the buttons to show/hide all datapoints
         if (n==data.length -1){

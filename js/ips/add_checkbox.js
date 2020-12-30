@@ -15,7 +15,8 @@ export function addCheckbox(player) {
         checkbox.checked = true;
 
         // creating label for checkbox 
-        var label = document.createElement('label'); 
+        var label = document.createElement('label');
+        label.id = 'label_' + player
 
         // appending the created text to  
         // the created label tag  
