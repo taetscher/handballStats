@@ -1,5 +1,4 @@
 //write function to add hidden divs with a specific class, see issue #29
-
 export function addHiddenScript(id){
     var div = document.createElement('script');
     div.setAttribute('type', 'text/json')

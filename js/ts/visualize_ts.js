@@ -1,4 +1,3 @@
-import * as d3 from "https://unpkg.com/d3@5?module";
 import {loadCSV} from '../load_csv.js';
 import {whoAreWe} from '../us.js';
 import {formatScore, formatTimestamp} from './format_csv.js'

@@ -1,4 +1,3 @@
-import * as d3 from "https://unpkg.com/d3@5?module";
 import {getTree} from '../get_tree.js'
 import {populateDropdownTS} from './pop_teams_ips.js'
 import {populateSeasons} from './pop_seasons_ips.js'
