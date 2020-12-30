@@ -179,8 +179,51 @@ export function vizClean(data){
             
             
                 //add a button to show/hide all
+                var pDiv = document.getElementById('checkboxes');
+                var buttonDiv = document.createElement('div');
+                buttonDiv.className = 'd-inline-flex p-2 col-12'
+                buttonDiv.id = 'check_all'
+            
+                var button = document.createElement('button');
+                button.id = 'checkbox_master';
+                button.value = 1;
+            
+                var label = document.createElement('label');
+                label.appendChild(document.createTextNode('Check / Uncheck All'));
+            
+                buttonDiv.appendChild(button);
+                buttonDiv.appendChild(label);
+            
+                pDiv.appendChild(buttonDiv);
+            
+                
+                //prepare functions to manage the button
+                function checkAll(){
+                    d3.selectAll('checkbox_box').attr('checked','true');
+                }
+                function uncheckAll(){
+                    d3.selectAll('checkbox_box').attr('checked','false');
+                }
             
                 //select all paths and checkbox values and set them according to the button
+                d3.select('#checkbox_master').on('click', function(){
+                    //check if checkboxes are turned on or off
+                    var state = d3.select(this).property('value');
+                    
+                    if (state == 1){
+                        //everything is checked, uncheck everything
+                        console.log('uncheck')
+                        
+                        //set state to 0
+                        d3.select(this).property('value', 0)
+                    }else{
+                        //everything is not checked, check everything
+                        console.log('check')
+                        
+                        //set state to 0
+                        d3.select(this).property('value', 1)
+                    }
+                })
         }
     } 
 }
