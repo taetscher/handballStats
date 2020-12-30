@@ -127,7 +127,7 @@ export function vizClean(data){
         svg.append("path")
             .datum(xy)
             .attr('class', 'player_stat')
-            .attr('id', player + '_line')
+            .attr('id', player.replaceAll(' ','_') + '_line')
             .attr("fill", "none")
             .attr("stroke", color)
             .attr('stroke-width', '4px')
@@ -144,11 +144,11 @@ export function vizClean(data){
         
         
         //append checkboxes to div and name them according to players
-        addCheckbox(player)
+        var cb_player = player.replaceAll(' ','_');
+        addCheckbox(cb_player)
+                        
         
-        //connect checkboxes to attribute visibility for path
-        
-        // only on the last iteration, append the axes
+        // only on the last iteration, append the axes and the buttons to show/hide all datapoints
         if (n==data.length -1){
                 // gridlines in y axis function
                 function make_y_gridlines() {
@@ -174,7 +174,13 @@ export function vizClean(data){
                 svg.append("g")
                     .attr('class', 'axes')
                     .call(make_y_gridlines()
-                        .tickFormat(d3.format('.0f')));    
+                        .tickFormat(d3.format('.0f')));
+            
+            
+            
+                //add a button to show/hide all
+            
+                //select all paths and checkbox values and set them according to the button
         }
     } 
 }
