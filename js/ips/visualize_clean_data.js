@@ -132,10 +132,13 @@ export function vizClean(data){
             .attr("stroke", color)
             .attr('stroke-width', '4px')
             .on('mouseover', function(){
-                    d3.select(this).style('stroke-width', '10px')
+                    d3.select(this)
+                        .attr('stroke-width', '10px')
+            
                 })
             .on('mouseout', function(){
-                    d3.select(this).style('stroke-width', '4px')
+                    d3.select(this)
+                        .attr('stroke-width', '4px')
                 })
             .attr("d", d3.line()
             .x(function(d) { return x(d.x) })
