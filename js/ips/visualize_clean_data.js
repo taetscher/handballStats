@@ -5,9 +5,6 @@ export function vizClean(data){
     console.log('clean')
     console.log(data)
     
-    
-    //set up a div before the svg-div to append checkboxes to
-    
     //set up title
     var team = document.getElementById('dropdown_teams').innerHTML;
     var season = document.getElementById('dropdown_seasons').innerHTML;
@@ -39,7 +36,8 @@ export function vizClean(data){
     var q;
     for (n=0; n < data.length; n++ ){
         //convert the data
-        var player = data[n].SPIELER;
+        var player = data[n].SPIELER || data[n].TORHÜTER;
+        console.log(player)
         
         //convert statistics to numbers
         var statistics_r = Object.values(data[n]);
@@ -61,7 +59,7 @@ export function vizClean(data){
     for (n=0; n < len; n++ ){
         
         //convert the data
-        var player = data[n].SPIELER;
+        var player = data[n].SPIELER || data[n].TORHÜTER;
         
         //convert dates to actual dates
         var dates = Object.keys(data[n]);
@@ -122,6 +120,7 @@ export function vizClean(data){
         }
         
         //append checkboxes to div and name them according to players
+        console.log(player)
         var cb_player = player.replaceAll(' ','_');
         addCheckbox(cb_player)
         
