@@ -4,6 +4,8 @@
     font-size: 1vh;
     height: 7vh;
     font: 14px Georgia;
+    border-width: 10px;
+    border-color: #ffc059; 
 }
 
 .nav-item {

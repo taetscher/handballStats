@@ -57,7 +57,8 @@ export function vizClean(data){
     
     //append paths to the graph for each player individually
     var n;
-    for (n=0; n < data.length; n++ ){
+    var len = data.length;
+    for (n=0; n < len; n++ ){
         
         //convert the data
         var player = data[n].SPIELER;
@@ -74,7 +75,7 @@ export function vizClean(data){
         var statistics = Object.values(data[n]);
         statistics.shift()
         for (e in statistics){
-            statistics[e] = Number(statistics[e])
+            statistics[e] = Number(statistics[e]);
         }
         
         //set up array for d3.line
@@ -125,7 +126,7 @@ export function vizClean(data){
         addCheckbox(cb_player)
         
         //set up random color
-        var color = '#'+Math.floor(Math.random() * Math.pow(2,32) ^ 0xffffff).toString(16).substr(-6);
+        var color = d3.interpolateInferno(n*1/len);
         
         // Add the line
         svg.append("path")
@@ -137,7 +138,7 @@ export function vizClean(data){
             .attr('stroke-width', '4px')
             .on('mouseover', function(){
                     d3.select(this)
-                        .attr('stroke-width', '10px');
+                        .attr('stroke-width', '10px').raise();
             
                     var lineID = d3.select(this).attr('id');
                     var state = d3.select(this).attr('opacity');
@@ -146,9 +147,7 @@ export function vizClean(data){
                     else{
                         d3.select('#label_' + lineID.substr(0,lineID.length - 5))
                         .style('background-color', '#ff1c73');   
-                    }
-                    
-                             
+                    }         
                 })
             .on('mouseout', function(){
                     d3.select(this)
