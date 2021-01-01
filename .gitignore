@@ -12,3 +12,6 @@ Gemfile
 Gemfile.lock
 
 .idea/
+
+lib/__pycache__
+.pyc
