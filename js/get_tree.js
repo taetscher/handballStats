@@ -1,14 +1,15 @@
-export function getURL(theUrl){
+export async function getURL(theUrl){
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
-    return JSON.parse(xmlHttp.responseText);
+    var result = await xmlHttp.responseText
+    return JSON.parse(result);
 
 };
 
 
-export function getTree(theUrl){
-    var response = getURL(theUrl);
+export async function getTree(theUrl){
+    var response = await getURL(theUrl);
     var x = 0;
     var links = {};
     for (x in response['tree']) {
