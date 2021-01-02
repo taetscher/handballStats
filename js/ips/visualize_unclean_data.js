@@ -1,4 +1,4 @@
-import {addCheckbox} from './add_checkbox.js'
+import {addCheckbox} from './add_checkbox.js';
 
 export function vizUnClean(data){
     
@@ -9,7 +9,7 @@ export function vizUnClean(data){
     var team = document.getElementById('dropdown_teams').innerHTML;
     var season = document.getElementById('dropdown_seasons').innerHTML;
     var stat = document.getElementById('dropdown_stats').innerHTML;
-    var title = stat + " (" + team + ", " + season + ")";
+    var title = stat + " (" + team + ", " + season.replace('_', '/') + ")";
 
     
     // set the dimensions and margins of the graph
@@ -214,6 +214,32 @@ export function vizUnClean(data){
                     .attr('class', 'axes')
                     .call(make_y_gridlines()
                         .tickFormat(d3.format('.0f')));
+            
+                // text label for the x axis
+                svg.append("text")
+                    .attr('class', 'axes-label')
+                    .attr("transform", "translate(" + (width/2) + " ," + (height + margin.top) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Games [dates]");
+            
+                // text label for the y axis
+                svg.append("text")
+                    .attr('class', 'axes-label')
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "0.8em")
+                    .style("text-anchor", "middle")
+                    .text("Efficiency [%]"); 
+
+                
+                //add title
+                svg.append("text")
+                    .attr('class', 'chart-title')
+                    .attr("transform", "translate(" + (width/2) + " ," + (0-margin.top/2) + ")")
+                    .attr("text-anchor", "middle")   
+                    .text('Player Statistic: '+title);
+        
             
             
             

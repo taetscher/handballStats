@@ -1,5 +1,8 @@
 .checkbox{
-    margin: 0.6vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
     font-size: 2vh;
     display: inline-table;
 }
