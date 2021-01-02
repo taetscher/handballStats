@@ -3,6 +3,8 @@
 @import url('./dropdown.css');
 @import url('charts.css');
 @import url('checkboxes.css');
+@import url('tables.css');
+@import url('intro.css');
 
 body {
     font: 14px Georgia;

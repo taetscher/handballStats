@@ -1,0 +1,1 @@
+window.alert('Thank you for stopping by on the handballStats Page. Please make sure you use a Chrome, Firefox or Edge browser, as this website is - for the interesting stuff - incompatible with Safari.')

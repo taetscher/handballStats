@@ -16,6 +16,7 @@
     
     
   <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
       <!-- Brand -->
@@ -42,8 +43,18 @@
       </div>
     </nav>
     <!-- Main Page Content -->
+      
+    
     <main id="content" class="container-fluid" role="main">
-
+        <div id='intro' class='container col-12' style='display: flex'>
+            <!-- ADJUST THE CONTENTS IN THE FILE LINKED BELOW -->
+            <script>
+            $(function(){
+                $("#intro").load("./ips-resources/ips_intro.html");
+            });
+            </script>
+        </div>
+        
         <div class='d-inline-flex p-2 col-12' id='dropdown_menu_select'>
             <div class="dropdown show" id='dropdown_button'>
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdown_teams" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

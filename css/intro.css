@@ -1,0 +1,9 @@
+#intro {
+    padding: 3px;
+    border-style: outset;
+    border-color:#ffc059;
+    border-width:7px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin: 1vh;
+}
