@@ -52,6 +52,7 @@ def plotGameProgressions():
             for game in games:
                 df, home, away, date = convert_stats(data_dir, team_folder, season, game)
                 plotDF(1, df, team_folder, season, home, away, date, whole_season=whole_season)
+                #TODO: Export a DF as csv with all games and their GDoT, time and Moving Average values for gh-pages viz
                 print('..')
 
 
