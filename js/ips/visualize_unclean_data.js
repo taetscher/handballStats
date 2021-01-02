@@ -142,7 +142,7 @@ export function vizUnClean(data){
         }
         
         //append checkboxes to div and name them according to players
-        var cb_player = player.replaceAll(' ','_');
+        var cb_player = player.replace(/ /g,"_");
         addCheckbox(cb_player)
         
         //set up random color
@@ -152,7 +152,7 @@ export function vizUnClean(data){
         svg.append("path")
             .datum(xy)
             .attr('class', 'player_stat')
-            .attr('id', player.replaceAll(' ','_') + '_line')
+            .attr('id', player.replace(/ /g,"_") + '_line')
             .attr("fill", "none")
             .attr("stroke", color)
             .attr('stroke-width', '4px')

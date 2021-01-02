@@ -20,7 +20,7 @@ export function addCheckbox(player) {
 
         // appending the created text to  
         // the created label tag  
-        label.appendChild(document.createTextNode(player.replaceAll('_', ' '))); 
+        label.appendChild(document.createTextNode(player.replace(/_/g," "))); 
 
         // appending the checkbox 
         // and label to a-tag

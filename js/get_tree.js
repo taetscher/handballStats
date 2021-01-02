@@ -1,10 +1,9 @@
 export async function getURL(theUrl){
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.open( "GET", theUrl, 0); // false for synchronous request
     xmlHttp.send( null );
     var result = await xmlHttp.responseText
     return JSON.parse(result);
-
 };
 
 
