@@ -5,9 +5,11 @@ from lib.scraperPlayerStats import scrapePlayerStats
 from lib.scraperGameProgression import scrapeGameProgression
 from lib.plotterGameProgression import plotGameProgressions
 from datetime import datetime
-
+import options
 
 start = datetime.now()
+print(f'initiating handballStats with the following parameters:')
+print(help(options))
 
 #--------------------------------
 #unfinished stuff
@@ -19,17 +21,21 @@ start = datetime.now()
 #plotPlayerStats()
 #--------------------------------
 
-print("\n", "-"*30, "\n", "Scraping Player Progress", "\n", "-"*30, "\n")
-scrapePlayerProgress()
+if options.scrapePlayerProgress:
+    print("\n", "-"*30, "\n", "Scraping Player Progress", "\n", "-"*30, "\n")
+    scrapePlayerProgress()
 
-print("\n", "-"*30, "\n", "Plotting Player Progress", "\n", "-"*30, "\n")
-plotPlayerProgress()
+if options.plotPlayerProgress:
+    print("\n", "-"*30, "\n", "Plotting Player Progress", "\n", "-"*30, "\n")
+    plotPlayerProgress()
 
-print("\n", "-"*30, "\n", "Scraping Game Progression", "\n", "-"*30, "\n")
-scrapeGameProgression()
+if options.scrapeGameProgressions:
+    print("\n", "-"*30, "\n", "Scraping Game Progression", "\n", "-"*30, "\n")
+    scrapeGameProgression()
 
-print("\n", "-"*30, "\n", "Plotting Game Progression", "\n", "-"*30, "\n")
-plotGameProgressions()
+if options.plotGameProgressions:
+    print("\n", "-"*30, "\n", "Plotting Game Progression", "\n", "-"*30, "\n")
+    plotGameProgressions()
 
 end = datetime.now()
 print(f'done. elapsed time: {end-start}')

@@ -50,7 +50,7 @@ def scrapePlayerProgress():
                 writer(game_stats, game, date, team, league)
                 print(date, team, league)
             except TypeError:
-                print(f'error. most likely the game ({game}) you are trying to download does not have stats available\nskipping...')
+                print(f'error. most likely the game ({game}) you are trying to download does not have stats available (yet)\nskipping...')
 
     print('\n', '-'*10)
     print('scraping successfully terminated, closing firefox...')
@@ -131,13 +131,14 @@ def scrapeGame(link,team,driver):
         pass
 
     #get only stats for specified team
-    if left_team.upper() == team:
-        return left_content, date, league
-    elif right_team.upper() == team:
-        return right_content, date, league
-    else:
-        print('\n\nsomething went wrong, skipping or shutting down...')
-        pass
+    try:
+        if left_team.upper() == team:
+            return left_content, date, league
+        elif right_team.upper() == team:
+            return right_content, date, league
+    except Exception as e:
+        print(e)
+
 
 def writer(game_stats,game,date,team, league):
     """helper function. writes statistics of input game-id into csv file"""
