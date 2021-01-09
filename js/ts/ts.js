@@ -15,8 +15,11 @@ addHiddenScript('seasons_dict');
 addHiddenScript('stats_dict');
 
 //populate the team selection dropdown
-var teams = getTree("https://api.github.com/repos/taetscher/handballStats/git/trees/f6a0ab9b96267c9eeadef0690d80dbe42f7fa5a1");
-populateDropdownTS(teams);
+var treeAtMaster = "https://api.github.com/repos/taetscher/handballStats/git/trees/master"
+var basetree = getTree(treeAtMaster)
+var output_csv = getTree(basetree.output_csv)
+var teams = getTree(output_csv.gameProgressions)
+populateDropdownTS(teams)
 
 //populate the season selection dropdown
 var team = document.getElementById('teams');

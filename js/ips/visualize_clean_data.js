@@ -3,7 +3,7 @@ import {addCheckbox} from './add_checkbox.js'
 export function vizClean(data){
     
     console.log('clean')
-    console.log(data)
+    //console.log(data)
     
     //set up title
     var team = document.getElementById('dropdown_teams').innerHTML;
@@ -37,7 +37,6 @@ export function vizClean(data){
     for (n=0; n < data.length; n++ ){
         //convert the data
         var player = data[n].SPIELER || data[n].TORHÜTER;
-        console.log(player)
         
         //convert statistics to numbers
         var statistics_r = Object.values(data[n]);
@@ -120,7 +119,6 @@ export function vizClean(data){
         }
         
         //append checkboxes to div and name them according to players
-        console.log(player)
         var cb_player = player.replace(/ /g,"_");
         addCheckbox(cb_player)
         

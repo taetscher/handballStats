@@ -3,7 +3,7 @@ import {addCheckbox} from './add_checkbox.js';
 export function vizUnClean(data){
     
     console.log('unclean')
-    console.log(data)
+    //console.log(data)
     
     //set up title
     var team = document.getElementById('dropdown_teams').innerHTML;
